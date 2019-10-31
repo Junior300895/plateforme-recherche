@@ -1,15 +1,13 @@
 package sn.codeart.msa;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
-import sn.codeart.msa.dao.ChercheurRepository;
-import sn.codeart.msa.model.Chercheur;
-import sn.codeart.msa.proxies.MicroserviceInfoProxy;
 
+@EnableConfigurationProperties
 @EnableFeignClients("sn.codeart.msa")
 @EnableDiscoveryClient(autoRegister = false)
 @SpringBootApplication
