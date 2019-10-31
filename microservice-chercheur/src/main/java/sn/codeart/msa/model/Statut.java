@@ -1,15 +1,18 @@
-package sn.codeart.msa.beans;
+package sn.codeart.msa.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.List;
 
-public class StatutBean {
+@Entity
+public class Statut {
+    @Id @GeneratedValue
     private int idStatut;
     private String libeleCourt;
     private String libeleLong;
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "fonction")
+    private List<Chercheur> chercheurs;
 
-    public StatutBean() {
+    public Statut() {
     }
 
     public int getIdStatut() {
@@ -36,12 +39,21 @@ public class StatutBean {
         this.libeleLong = libeleLong;
     }
 
+    public List<Chercheur> getChercheurs() {
+        return chercheurs;
+    }
+
+    public void setChercheurs(List<Chercheur> chercheurs) {
+        this.chercheurs = chercheurs;
+    }
+
     @Override
     public String toString() {
-        return "StatutBean{" +
+        return "Statut{" +
                 "idStatut=" + idStatut +
                 ", libeleCourt='" + libeleCourt + '\'' +
                 ", libeleLong='" + libeleLong + '\'' +
+                ", chercheurs=" + chercheurs +
                 '}';
     }
 }

@@ -1,11 +1,12 @@
 package sn.codeart.msa;
 
+import org.apache.kafka.common.protocol.types.Field;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import sn.codeart.msa.dao.ChercheurRepository;
-import sn.codeart.msa.model.Chercheur;
+import sn.codeart.msa.dao.*;
+import sn.codeart.msa.model.*;
 import sn.codeart.msa.proxies.MicroserviceInfoProxy;
 
 import java.util.Date;
@@ -16,21 +17,26 @@ class MicroserviceChercheurApplicationTests {
 	@Autowired
     private ChercheurRepository chercheurRepository;
 	@Autowired
-	private MicroserviceInfoProxy microserviceInfoProxy;
+	private FonctionRepository fonctionRepository;
+	@Autowired
+	private GradeRepository gradeRepository;
+	@Autowired
+	private StatutRepository statutRepository;
+
 
 	@Test
     void contextLoads() {
-		int idFonction = microserviceInfoProxy.findFonctionByLibeleCourt("Enseignant").getIdFonction();
-		int idGrade = microserviceInfoProxy.findGradeByLibeleCourt("Titulaire").getIdGrade();
-		int idStatut = microserviceInfoProxy.findStatutByLibeleCourt("EnseignantChercheur").getIdStatut();
+		Fonction fonction1= fonctionRepository.findFonctionByLibeleCourt("Enseignant");
+		Grade grade1 = gradeRepository.findGradeByLibeleCourt("Titulaire");
+		Statut statut1 = statutRepository.findStatutByLibeleCourt("EnseignantChercheur");
         /*
 		 Test sur chercheur
 		 */
         // 1
 		Chercheur chercheur = new Chercheur();
-		chercheur.setId_fonction(idFonction);
-		chercheur.setId_grade(idGrade);
-		chercheur.setId_statut(idStatut);
+		chercheur.setFonction(fonction1);
+		chercheur.setGrade(grade1);
+		chercheur.setStatut(statut1);
 		chercheur.setPrenom("Karim");
 		chercheur.setNom("Konate");
 		chercheur.setNe_le(new Date());
@@ -41,9 +47,9 @@ class MicroserviceChercheurApplicationTests {
 		chercheurRepository.save(chercheur);
 		// 2
 		Chercheur chercheur2 = new Chercheur();
-		chercheur2.setId_fonction(idFonction);
-		chercheur2.setId_grade(idGrade);
-		chercheur2.setId_statut(idStatut);
+		chercheur2.setFonction(fonction1);
+		chercheur2.setGrade(grade1);
+		chercheur2.setStatut(statut1);
 		chercheur2.setPrenom("Junior");
 		chercheur2.setNom("Ndoye");
 		chercheur2.setNe_le(new Date());
@@ -53,8 +59,11 @@ class MicroserviceChercheurApplicationTests {
 		chercheurRepository.save(chercheur2);
 
 
-		Assert.assertEquals("test sur insertion du chercheur 1","Karim",chercheur.getPrenom());
-		Assert.assertEquals("test sur insertion du chercheur 2","Junior",chercheur2.getPrenom());
-    }
+		Assert.assertEquals("test sur insertion du chercheur 1","Karim",
+				chercheur.getPrenom());
+		Assert.assertEquals("test sur insertion du chercheur 2","Junior",
+				chercheur2.getPrenom());
+
+	}
 
 }

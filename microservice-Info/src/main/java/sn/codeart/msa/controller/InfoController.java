@@ -6,7 +6,7 @@ import sn.codeart.msa.dao.*;
 import sn.codeart.msa.model.Fonction;
 import sn.codeart.msa.model.Grade;
 import sn.codeart.msa.model.Statut;
-import sn.codeart.msa.producer.Producer;
+import sn.codeart.msa.events.Producer;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package sn.codeart.msa.producer;
+package sn.codeart.msa.events;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import java.io.IOException;
 @Service
 public class Consumer {
-    private final Logger logger = LoggerFactory.getLogger(Producer.class);
+    private final Logger logger = LoggerFactory.getLogger(Consumer.class);
 
     @Autowired
     private final ObjectMapper mapper = new ObjectMapper();

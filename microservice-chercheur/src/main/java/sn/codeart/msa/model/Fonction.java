@@ -1,15 +1,18 @@
-package sn.codeart.msa.beans;
+package sn.codeart.msa.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.List;
 
-public class FonctionBean {
+@Entity
+public class Fonction {
+    @Id @GeneratedValue
     private int idFonction;
     private String libeleCourt;
     private String libeleLong;
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "fonction")
+    private List<Chercheur> chercheurs;
 
-    public FonctionBean() {
+    public Fonction() {
     }
 
     public int getIdFonction() {
@@ -36,12 +39,21 @@ public class FonctionBean {
         this.libeleLong = libeleLong;
     }
 
+    public List<Chercheur> getChercheurs() {
+        return chercheurs;
+    }
+
+    public void setChercheurs(List<Chercheur> chercheurs) {
+        this.chercheurs = chercheurs;
+    }
+
     @Override
     public String toString() {
-        return "FonctionBean{" +
+        return "Fonction{" +
                 "idFonction=" + idFonction +
                 ", libeleCourt='" + libeleCourt + '\'' +
                 ", libeleLong='" + libeleLong + '\'' +
+                ", chercheurs=" + chercheurs +
                 '}';
     }
 }

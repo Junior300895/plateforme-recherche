@@ -1,9 +1,7 @@
 package sn.codeart.msa.model;
 
-import sn.codeart.msa.beans.DiplomeBean;
-import sn.codeart.msa.beans.ThematiqueBean;
-
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -11,15 +9,6 @@ import java.util.List;
 public class Chercheur {
     @Id @GeneratedValue
     private int idChercheur;
-
-//    @Column(unique = true)
-//    private int id_structure;
-    private int id_fonction;
-//    @Column(unique = true)
-//    private int id_ur;
-    private int id_grade;
-    private int id_statut;
-
     private String prenom;
     private String nom;
     private Date ne_le;
@@ -34,6 +23,24 @@ public class Chercheur {
     private String tel_pro;
     private String adresse_pro;
     private String boite_postal;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "idFonction", nullable = false)
+    private Fonction fonction;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "idGrade", nullable = false)
+    private Grade grade;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "idStatut", nullable = false)
+    private Statut statut;
+    @ManyToMany
+    @JoinTable(
+            name = "chercheur_thematique",
+            joinColumns = @JoinColumn(name = "idChercheur"),
+            inverseJoinColumns = @JoinColumn(name = "idThematique"))
+    private List<Thematique> thematiques;
+
+    @OneToMany(mappedBy="chercheur", fetch = FetchType.EAGER)
+    private List<ChercheurDiplome> diplomes;
 
     public Chercheur() {
     }
@@ -44,30 +51,6 @@ public class Chercheur {
 
     public void setIdChercheur(int idChercheur) {
         this.idChercheur = idChercheur;
-    }
-
-    public int getId_fonction() {
-        return id_fonction;
-    }
-
-    public void setId_fonction(int id_fonction) {
-        this.id_fonction = id_fonction;
-    }
-
-    public int getId_grade() {
-        return id_grade;
-    }
-
-    public void setId_grade(int id_grade) {
-        this.id_grade = id_grade;
-    }
-
-    public int getId_statut() {
-        return id_statut;
-    }
-
-    public void setId_statut(int id_statut) {
-        this.id_statut = id_statut;
     }
 
     public String getPrenom() {
@@ -174,13 +157,49 @@ public class Chercheur {
         this.boite_postal = boite_postal;
     }
 
+    public Fonction getFonction() {
+        return fonction;
+    }
+
+    public void setFonction(Fonction fonction) {
+        this.fonction = fonction;
+    }
+
+    public Grade getGrade() {
+        return grade;
+    }
+
+    public void setGrade(Grade grade) {
+        this.grade = grade;
+    }
+
+    public Statut getStatut() {
+        return statut;
+    }
+
+    public void setStatut(Statut statut) {
+        this.statut = statut;
+    }
+
+    public List<Thematique> getThematiques() {
+        return thematiques;
+    }
+
+    public void setThematiques(List<Thematique> thematiques) {
+        this.thematiques = thematiques;
+    }
+
+    public List<ChercheurDiplome> getDiplomes() {
+        return diplomes;
+    }
+    public void setDiplomes(List<ChercheurDiplome> diplomes) {
+        this.diplomes = diplomes;
+    }
+
     @Override
     public String toString() {
         return "Chercheur{" +
                 "idChercheur=" + idChercheur +
-                ", id_fonction=" + id_fonction +
-                ", id_grade=" + id_grade +
-                ", id_statut=" + id_statut +
                 ", prenom='" + prenom + '\'' +
                 ", nom='" + nom + '\'' +
                 ", ne_le=" + ne_le +
@@ -194,6 +213,11 @@ public class Chercheur {
                 ", tel_pro='" + tel_pro + '\'' +
                 ", adresse_pro='" + adresse_pro + '\'' +
                 ", boite_postal='" + boite_postal + '\'' +
+                ", fonction=" + fonction +
+                ", grade=" + grade +
+                ", statut=" + statut +
+                ", thematiques=" + thematiques +
+                ", diplomes=" + diplomes +
                 '}';
     }
 }

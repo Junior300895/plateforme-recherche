@@ -5,4 +5,5 @@ import sn.codeart.msa.model.Chercheur;
 
 public interface ChercheurRepository extends JpaRepository<Chercheur, Integer> {
     Chercheur findChercheurByIdChercheur(int id);
+    Chercheur findChercheurByEmail(String email);
 }

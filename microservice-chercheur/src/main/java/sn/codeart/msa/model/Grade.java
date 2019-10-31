@@ -1,15 +1,18 @@
-package sn.codeart.msa.beans;
+package sn.codeart.msa.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.List;
 
-public class GradeBean {
+@Entity
+public class Grade {
+    @Id @GeneratedValue
     private int idGrade;
     private String libeleCourt;
     private String libeleLong;
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "fonction")
+    private List<Chercheur> chercheurs;
 
-    public GradeBean() {
+    public Grade() {
     }
 
     public int getIdGrade() {
@@ -36,12 +39,21 @@ public class GradeBean {
         this.libeleLong = libeleLong;
     }
 
+    public List<Chercheur> getChercheurs() {
+        return chercheurs;
+    }
+
+    public void setChercheurs(List<Chercheur> chercheurs) {
+        this.chercheurs = chercheurs;
+    }
+
     @Override
     public String toString() {
-        return "GradeBean{" +
+        return "Grade{" +
                 "idGrade=" + idGrade +
                 ", libeleCourt='" + libeleCourt + '\'' +
                 ", libeleLong='" + libeleLong + '\'' +
+                ", chercheurs=" + chercheurs +
                 '}';
     }
 }
