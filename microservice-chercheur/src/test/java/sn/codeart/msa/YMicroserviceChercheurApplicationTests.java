@@ -10,9 +10,10 @@ import sn.codeart.msa.model.*;
 import sn.codeart.msa.proxies.MicroserviceInfoProxy;
 
 import java.util.Date;
+import java.util.List;
 
 @SpringBootTest
-class MicroserviceChercheurApplicationTests {
+class YMicroserviceChercheurApplicationTests {
 
 	@Autowired
     private ChercheurRepository chercheurRepository;
@@ -22,6 +23,8 @@ class MicroserviceChercheurApplicationTests {
 	private GradeRepository gradeRepository;
 	@Autowired
 	private StatutRepository statutRepository;
+	@Autowired
+	private ThematiqueRepository thematiqueRepository;
 
 
 	@Test
@@ -29,6 +32,7 @@ class MicroserviceChercheurApplicationTests {
 		Fonction fonction1= fonctionRepository.findFonctionByLibeleCourt("Enseignant");
 		Grade grade1 = gradeRepository.findGradeByLibeleCourt("Titulaire");
 		Statut statut1 = statutRepository.findStatutByLibeleCourt("EnseignantChercheur");
+		List<Thematique> thematiques = thematiqueRepository.findAll();
         /*
 		 Test sur chercheur
 		 */
@@ -43,6 +47,7 @@ class MicroserviceChercheurApplicationTests {
 		chercheur.setLieu_de_naissance("Russie");
 		chercheur.setEmail("karim@yahoo.fr");
 		chercheur.setCivilité("M");
+		chercheur.setThematiques(thematiques);
 
 		chercheurRepository.save(chercheur);
 		// 2

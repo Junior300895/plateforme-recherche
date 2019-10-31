@@ -1,5 +1,7 @@
 package sn.codeart.msa.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -12,6 +14,8 @@ public class Thematique {
     private int idThematique;
     private String libeleCourt;
     private String libeleLong;
+
+    @JsonIgnore
     @ManyToMany(mappedBy = "thematiques")
     Set<Chercheur> chercheurs;
 

@@ -16,7 +16,7 @@ import sn.codeart.msa.model.Fonction;
 import java.util.Date;
 
 @SpringBootTest
-class ChercheurDiplomeTests {
+class ZChercheurDiplomeTests {
 
     @Autowired
     private ChercheurRepository chercheurRepository;
@@ -27,15 +27,16 @@ class ChercheurDiplomeTests {
     @Test
     void contextLoads() {
         Chercheur chercheur = chercheurRepository.findChercheurByEmail("karim@yahoo.fr");
-        //addDiplome(chercheur, diplomeRepository.
-        //        findDiplomeByLibeleCourt("PhD"), new Date(), "Honorable");
-//        addDiplome(chercheur, diplomeRepository.
-//                findDiplomeByLibeleCourt("DEA - Diplôme d’Etat d’architecte"), new Date(), "Très Bien");
+        addDiplome(chercheur, diplomeRepository.
+                findDiplomeByLibeleCourt("PhD"), new Date(), "Honorable");
+        addDiplome(chercheur, diplomeRepository.
+                findDiplomeByLibeleCourt("DEA - Diplôme d’Etat d’architecte"), new Date(), "Très Bien");
 
-     //   Assert.assertEquals("test sur insertion diplome pour un chercheur","PhD",
-     //           chercheur.getDiplomes().get(0).getDiplome().getLibeleCourt());
+        Assert.assertEquals("test sur insertion diplome pour un chercheur","PhD",
+                chercheur.getDiplomes().get(0).getDiplome().getLibeleCourt());
 
-        System.out.println(chercheur.getDiplomes().get(1).getDiplome().getLibeleCourt());
+        Chercheur chercheurSave = chercheurRepository.findChercheurByEmail("karim@yahoo.fr");
+        System.out.println(chercheurSave.getDiplomes().get(0).getDiplome().getLibeleCourt());
     }
     /*
        Ajouter un diplôme à un chercheur
