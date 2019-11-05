@@ -24,43 +24,49 @@ public class InfoController {
     private ThematiqueRepository thematiqueRepository;
 
     private final Producer producer;
+
     @Autowired
     InfoController(Producer producer) {
         this.producer = producer;
     }
+
     @PostMapping(value = "/publish")
     public void sendMessageToKafkaTopic(@RequestParam("message") String message) {
         this.producer.sendMessage(message);
     }
 
     @GetMapping(value = "/fonctions")
-    public List<Fonction> findAllFonction(){
+    public List<Fonction> findAllFonction() {
         return fonctionRepository.findAll();
     }
+
     @GetMapping(value = "/fonction/{libeleCourt}")
-    public Fonction findFonctionByLibeleCourt(@PathVariable("libeleCourt") String lc){
+    public Fonction findFonctionByLibeleCourt(@PathVariable("libeleCourt") String lc) {
         return fonctionRepository.findFonctionByLibeleCourt(lc);
     }
+
     @GetMapping(value = "/getfonction/{id}")
-    public Fonction findFonctionByIdFonction(@PathVariable("id") int id){
+    public Fonction findFonctionByIdFonction(@PathVariable("id") int id) {
         return fonctionRepository.findFonctionByIdFonction(id);
     }
 
     @GetMapping(value = "/grades")
-    public List<Grade> findAllGrade(){
+    public List<Grade> findAllGrade() {
         return gradeRepository.findAll();
     }
+
     @GetMapping(value = "/grade/{libeleCourt}")
-    public Grade findGradeByLibeleCourt(@PathVariable("libeleCourt") String lc){
+    public Grade findGradeByLibeleCourt(@PathVariable("libeleCourt") String lc) {
         return gradeRepository.findGradeByLibeleCourt(lc);
     }
 
     @GetMapping(value = "/statuts")
-    public List<Statut> findAllStatut(){
+    public List<Statut> findAllStatut() {
         return statutRepository.findAll();
     }
+
     @GetMapping(value = "/statut/{libeleCourt}")
-    public Statut findStatutByLibeleCourt(@PathVariable("libeleCourt") String lc){
+    public Statut findStatutByLibeleCourt(@PathVariable("libeleCourt") String lc) {
         return statutRepository.findStatutByLibeleCourt(lc);
     }
 }

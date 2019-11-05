@@ -11,6 +11,7 @@ import sn.codeart.msa.model.Statut;
 class StatutTests {
     @Autowired
     private StatutRepository statutRepository;
+
     @Test
     void contextLoads() {
         Statut statut = new Statut();
@@ -18,6 +19,6 @@ class StatutTests {
         statut.setLibeleLong("EnseignantChercheur");
 
         statutRepository.save(statut);
-        Assert.assertEquals("test sur insertion statut 1","EnseignantChercheur", statut.getLibeleCourt());
+        Assert.assertEquals("test sur insertion statut 1", "EnseignantChercheur", statut.getLibeleCourt());
     }
 }

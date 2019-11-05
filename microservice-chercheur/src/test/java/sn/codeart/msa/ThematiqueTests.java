@@ -20,6 +20,7 @@ class ThematiqueTests {
     private ThematiqueRepository thematiqueRepository;
     @Autowired
     private ChercheurRepository chercheurRepository;
+
     @Test
     void contextLoads() {
         Thematique thematique1 = new Thematique();

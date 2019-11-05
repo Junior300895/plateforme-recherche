@@ -1,5 +1,8 @@
 package sn.codeart.msa.beans;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ThematiqueBean {
     private int idThematique;
     private String libeleCourt;

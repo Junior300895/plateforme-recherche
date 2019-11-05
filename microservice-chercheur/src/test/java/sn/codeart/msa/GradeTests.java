@@ -12,6 +12,7 @@ class GradeTests {
 
     @Autowired
     private GradeRepository gradeRepository;
+
     @Test
     void contextLoads() {
         Grade grade = new Grade();
@@ -19,6 +20,6 @@ class GradeTests {
         grade.setLibeleLong("Professeur titulaire");
 
         gradeRepository.save(grade);
-        Assert.assertEquals("test sur insertion grade 1","Titulaire", grade.getLibeleCourt());
+        Assert.assertEquals("test sur insertion grade 1", "Titulaire", grade.getLibeleCourt());
     }
 }

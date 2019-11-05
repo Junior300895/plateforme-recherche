@@ -12,6 +12,7 @@ class FonctionTests {
 
     @Autowired
     private FonctionRepository fonctionRepository;
+
     @Test
     void contextLoads() {
         Fonction fonction = new Fonction();
@@ -19,6 +20,6 @@ class FonctionTests {
         fonction.setLibeleLong("Université de dakar");
 
         fonctionRepository.save(fonction);
-        Assert.assertEquals("test sur insertion fonction 1","Enseignant", fonction.getLibeleCourt());
+        Assert.assertEquals("test sur insertion fonction 1", "Enseignant", fonction.getLibeleCourt());
     }
 }

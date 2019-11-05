@@ -7,7 +7,8 @@ import java.util.List;
 
 @Entity
 public class Chercheur {
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     private int idChercheur;
     private String prenom;
     private String nom;
@@ -24,22 +25,22 @@ public class Chercheur {
     private String adresse_pro;
     private String boite_postal;
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "idFonction", nullable = false)
+    @JoinColumn(name = "idFonction", nullable = true)
     private Fonction fonction;
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "idGrade", nullable = false)
+    @JoinColumn(name = "idGrade", nullable = true)
     private Grade grade;
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "idStatut", nullable = false)
+    @JoinColumn(name = "idStatut", nullable = true)
     private Statut statut;
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(
             name = "chercheur_thematique",
             joinColumns = @JoinColumn(name = "idChercheur"),
             inverseJoinColumns = @JoinColumn(name = "idThematique"))
     private List<Thematique> thematiques;
 
-    @OneToMany(mappedBy="chercheur", fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "chercheur", fetch = FetchType.LAZY)
     private List<ChercheurDiplome> diplomes;
 
     public Chercheur() {
@@ -192,6 +193,7 @@ public class Chercheur {
     public List<ChercheurDiplome> getDiplomes() {
         return diplomes;
     }
+
     public void setDiplomes(List<ChercheurDiplome> diplomes) {
         this.diplomes = diplomes;
     }

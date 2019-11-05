@@ -10,7 +10,8 @@ import java.util.Set;
 
 @Entity
 public class Appeloffre {
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     private int idAppeloffre;
     private String intitule;
     private Date date_parution;
@@ -24,12 +25,12 @@ public class Appeloffre {
     public Appeloffre() {
     }
 
-    public int getId_appeloffre() {
+    public int getIdAppeloffre() {
         return idAppeloffre;
     }
 
-    public void setId_appeloffre(int id_appeloffre) {
-        this.idAppeloffre = id_appeloffre;
+    public void setIdAppeloffre(int idAppeloffre) {
+        this.idAppeloffre = idAppeloffre;
     }
 
     public String getIntitule() {

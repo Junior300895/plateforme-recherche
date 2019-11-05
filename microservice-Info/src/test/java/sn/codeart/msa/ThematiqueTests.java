@@ -12,6 +12,7 @@ class ThematiqueTests {
 
     @Autowired
     private ThematiqueRepository thematiqueRepository;
+
     @Test
     void contextLoads() {
         Thematique thematique = new Thematique();
@@ -19,6 +20,6 @@ class ThematiqueTests {
         thematique.setLibeleLong("");
 
         thematiqueRepository.save(thematique);
-        Assert.assertEquals("test sur insertion thematique 1","Services publics et personnes sans-abri ou mal logées", thematique.getLibeleCourt());
+        Assert.assertEquals("test sur insertion thematique 1", "Services publics et personnes sans-abri ou mal logées", thematique.getLibeleCourt());
     }
 }

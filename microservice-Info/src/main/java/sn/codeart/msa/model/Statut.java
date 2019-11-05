@@ -9,7 +9,8 @@ import java.util.List;
 
 @Entity
 public class Statut {
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     private int idStatut;
     private String libeleCourt;
     private String libeleLong;

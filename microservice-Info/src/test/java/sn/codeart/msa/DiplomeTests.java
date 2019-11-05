@@ -8,10 +8,11 @@ import sn.codeart.msa.dao.DiplomeRepository;
 import sn.codeart.msa.model.Diplome;
 
 @SpringBootTest
-class DiplomeTests{
+class DiplomeTests {
 
     @Autowired
     private DiplomeRepository diplomeRepository;
+
     @Test
     void contextLoads() {
         Diplome diplome = new Diplome();
@@ -19,7 +20,7 @@ class DiplomeTests{
         diplome.setLibeleLong("Diplôme universitaire");
 
         diplomeRepository.save(diplome);
-        Assert.assertEquals("test sur insertion diplome 1","PhD", diplome.getLibeleCourt());
+        Assert.assertEquals("test sur insertion diplome 1", "PhD", diplome.getLibeleCourt());
     }
 
 }

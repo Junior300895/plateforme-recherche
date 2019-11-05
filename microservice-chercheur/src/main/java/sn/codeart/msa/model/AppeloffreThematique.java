@@ -1,27 +1,17 @@
 package sn.codeart.msa.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "thematique_appeloffre")
+@IdClass(AppelOffreThematiqueId.class)
 public class AppeloffreThematique {
     @Id
-    private int id;
     private int idThematique;
+    @Id
     private int idAppeloffre;
 
     public AppeloffreThematique() {
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public int getIdAppeloffre() {
@@ -43,7 +33,6 @@ public class AppeloffreThematique {
     @Override
     public String toString() {
         return "AppeloffreThematique{" +
-                "id=" + id +
                 ", idThematique=" + idThematique +
                 ", idAppeloffre=" + idAppeloffre +
                 '}';

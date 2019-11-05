@@ -24,6 +24,7 @@ class ZChercheurDiplomeTests {
     private DiplomeRepository diplomeRepository;
     @Autowired
     private ChercheurDiplomeRepository chercheurDiplomeRepository;
+
     @Test
     void contextLoads() {
         Chercheur chercheur = chercheurRepository.findChercheurByEmail("karim@yahoo.fr");
@@ -32,16 +33,17 @@ class ZChercheurDiplomeTests {
         addDiplome(chercheur, diplomeRepository.
                 findDiplomeByLibeleCourt("DEA - Diplôme d’Etat d’architecte"), new Date(), "Très Bien");
 
-        Assert.assertEquals("test sur insertion diplome pour un chercheur","PhD",
+        Assert.assertEquals("test sur insertion diplome pour un chercheur", "PhD",
                 chercheur.getDiplomes().get(0).getDiplome().getLibeleCourt());
 
         Chercheur chercheurSave = chercheurRepository.findChercheurByEmail("karim@yahoo.fr");
         System.out.println(chercheurSave.getDiplomes().get(0).getDiplome().getLibeleCourt());
     }
+
     /*
        Ajouter un diplôme à un chercheur
     */
-    public void addDiplome(Chercheur chercheur, Diplome diplome, Date annee, String mention){
+    public void addDiplome(Chercheur chercheur, Diplome diplome, Date annee, String mention) {
         ChercheurDiplome chercheurDiplome = new ChercheurDiplome();
         chercheurDiplome.setDiplome(diplome);
         chercheurDiplome.setChercheur(chercheur);

@@ -6,4 +6,5 @@ import sn.codeart.msa.model.Thematique;
 
 public interface ThematiqueRepository extends JpaRepository<Thematique, Integer> {
     Thematique findThematiqueByLibeleCourt(String lc);
+    Thematique findThematiqueByIdThematique(int id);
 }

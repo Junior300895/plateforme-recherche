@@ -10,7 +10,8 @@ import java.util.List;
 
 @Entity
 public class Thematique {
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     private int idThematique;
     private String libeleCourt;
     private String libeleLong;

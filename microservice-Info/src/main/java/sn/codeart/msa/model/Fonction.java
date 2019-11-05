@@ -9,7 +9,8 @@ import java.util.List;
 
 @Entity
 public class Fonction {
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     private int idFonction;
     private String libeleCourt;
     private String libeleLong;

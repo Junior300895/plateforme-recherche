@@ -6,8 +6,10 @@ import java.util.Date;
 @Entity
 @IdClass(ChercheurDiplomeId.class)
 public class ChercheurDiplome {
-    @Id private int idChercheur;
-    @Id private int idDiplome;
+    @Id
+    private int idChercheur;
+    @Id
+    private int idDiplome;
     private Date annee;
     private String mention;
     private String lieuObtention;

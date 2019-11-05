@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class ChercheurBean {
     private int id_chercheur;
-//    @Column(unique = true)
+    //    @Column(unique = true)
 //    private int id_structure;
     @Column(unique = true)
     private int id_fonction;
@@ -59,6 +59,7 @@ public class ChercheurBean {
     public void setId_fonction(int id_fonction) {
         this.id_fonction = id_fonction;
     }
+
     //
 //    public int getId_ur() {
 //        return id_ur;

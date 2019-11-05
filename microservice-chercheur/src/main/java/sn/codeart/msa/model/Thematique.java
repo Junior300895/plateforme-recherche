@@ -2,21 +2,19 @@ package sn.codeart.msa.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToMany;
+import javax.persistence.*;
 import java.util.Set;
 
 @Entity
 public class Thematique {
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     private int idThematique;
     private String libeleCourt;
     private String libeleLong;
 
     @JsonIgnore
-    @ManyToMany(mappedBy = "thematiques")
+    @ManyToMany(mappedBy = "thematiques", fetch = FetchType.EAGER)
     Set<Chercheur> chercheurs;
 
     public Thematique() {

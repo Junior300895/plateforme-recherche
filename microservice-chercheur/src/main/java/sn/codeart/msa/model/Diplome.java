@@ -5,11 +5,12 @@ import java.util.List;
 
 @Entity
 public class Diplome {
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     private int idDiplome;
     private String libeleCourt;
     private String libeleLong;
-    @OneToMany(mappedBy="diplome",fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "diplome", fetch = FetchType.EAGER)
     private List<ChercheurDiplome> chercheurs;
 
     public Diplome() {

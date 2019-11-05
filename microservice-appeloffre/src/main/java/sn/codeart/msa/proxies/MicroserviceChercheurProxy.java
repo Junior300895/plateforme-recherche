@@ -9,7 +9,7 @@ import sn.codeart.msa.beans.ThematiqueBean;
 import java.util.List;
 
 @Component
-@FeignClient(name = "microservice-chercheur", url = "localhost:8080")
+@FeignClient(name = "microservice-chercheur", url = "localhost:9001")
 public interface MicroserviceChercheurProxy {
 
     @GetMapping(value = "/getThematique/{lc}")

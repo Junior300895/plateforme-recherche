@@ -14,6 +14,7 @@ class DiplomeTests {
 
     @Autowired
     private DiplomeRepository diplomeRepository;
+
     @Test
     void contextLoads() {
         Diplome diplome1 = new Diplome();
@@ -24,7 +25,7 @@ class DiplomeTests {
 
         diplomeRepository.save(diplome1);
         diplomeRepository.save(diplome2);
-        Assert.assertEquals("test sur insertion diplome 1","PhD", diplome1.getLibeleCourt());
-        Assert.assertEquals("test sur insertion diplome 2","DEA - Diplôme d’Etat d’architecte", diplome2.getLibeleCourt());
+        Assert.assertEquals("test sur insertion diplome 1", "PhD", diplome1.getLibeleCourt());
+        Assert.assertEquals("test sur insertion diplome 2", "DEA - Diplôme d’Etat d’architecte", diplome2.getLibeleCourt());
     }
 }

@@ -5,7 +5,8 @@ import java.util.List;
 
 @Entity
 public class Grade {
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     private int idGrade;
     private String libeleCourt;
     private String libeleLong;

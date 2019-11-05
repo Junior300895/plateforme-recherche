@@ -9,7 +9,8 @@ import java.util.List;
 
 @Entity
 public class Diplome {
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     private int idDiplome;
     private String libeleCourt;
     private String libeleLong;
