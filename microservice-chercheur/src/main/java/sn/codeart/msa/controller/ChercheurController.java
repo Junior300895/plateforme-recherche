@@ -23,6 +23,10 @@ public class ChercheurController {
     public List<Chercheur> findAllChercheur() {
         return chercheurRepository.findAll();
     }
+    @GetMapping(value = "/chercheurs/{email}")
+    public Chercheur findChercheurByEmail(@PathVariable("email") String email) {
+        return chercheurRepository.findChercheurByEmail(email);
+    }
 
     @GetMapping(value = "/thematiques")
     public List<Thematique> findAllThematique() {

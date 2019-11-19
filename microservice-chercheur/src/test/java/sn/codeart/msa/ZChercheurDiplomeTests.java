@@ -7,11 +7,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import sn.codeart.msa.dao.ChercheurDiplomeRepository;
 import sn.codeart.msa.dao.ChercheurRepository;
 import sn.codeart.msa.dao.DiplomeRepository;
-import sn.codeart.msa.dao.FonctionRepository;
 import sn.codeart.msa.model.Chercheur;
 import sn.codeart.msa.model.ChercheurDiplome;
 import sn.codeart.msa.model.Diplome;
-import sn.codeart.msa.model.Fonction;
 
 import java.util.Date;
 

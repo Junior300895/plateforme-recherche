@@ -2,115 +2,146 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0133d2ce-f908-413a-b07f-530fa3246a0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_csv_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_paranamer_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_scala_2_12_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spotbugs_spotbugs_annotations_3_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_scala_logging_scala_logging_2_12_3_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_connect_api_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_connect_json_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_12_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_12_test_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_test_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_streams_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_streams_test_utils_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rocksdb_rocksdbjni_5_18_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_12_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_12_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_2_2_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_2_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_2_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_2_2_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_2_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_test_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/beans/AppeloffreThematique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/beans/DiffusionBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/controller/AppeloffreController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/model/AppelOffreThematiqueId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/service/AppeloffreService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/service/impl/AppeloffreServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/beans/ThematiqueBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/events/ProducerNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/AppelOffreThematiqueId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/beans/AppeloffreBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/beans/AppeloffreThematique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/beans/ChercheurBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/beans/ThematiqueBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/controller/RegistrationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/dao/DiffusionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/events/NotificationKafkaListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/model/Diffusion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/model/DiffusionId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/proxies/MicroserviceAppeloffreProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/service/MailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_connect_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_connect_json_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_12_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_12_test_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_test_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_streams_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_streams_test_utils_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_core_3_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_3_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_1_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_test_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-ui/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/beans/ChercheurBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/CommunicationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/PublicationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/TypeCommunicationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/TypePublicationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Communication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Publication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Typecommunication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Typepublication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/ServiceCommunication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/ServicePublication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/impl/ServiceCommunicationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/impl/ServicePublicationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/myConfig" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/myConfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-Info/src/main/java/sn/codeart/msa/beans/ChercheurBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-Info/src/main/java/sn/codeart/msa/beans/ChercheurBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-Info/src/main/java/sn/codeart/msa/controller/InfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-Info/src/main/java/sn/codeart/msa/controller/InfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-Info/src/main/java/sn/codeart/msa/events/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-Info/src/main/java/sn/codeart/msa/events/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-Info/src/main/java/sn/codeart/msa/model/Diplome.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-Info/src/main/java/sn/codeart/msa/model/Diplome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-Info/src/main/java/sn/codeart/msa/model/Fonction.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-Info/src/main/java/sn/codeart/msa/model/Fonction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-Info/src/main/java/sn/codeart/msa/model/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-Info/src/main/java/sn/codeart/msa/model/Grade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-Info/src/main/java/sn/codeart/msa/model/Statut.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-Info/src/main/java/sn/codeart/msa/model/Statut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-Info/src/main/java/sn/codeart/msa/model/Thematique.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-Info/src/main/java/sn/codeart/msa/model/Thematique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-Info/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-Info/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-Info/src/test/java/sn/codeart/msa/DiplomeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-Info/src/test/java/sn/codeart/msa/DiplomeTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-Info/src/test/java/sn/codeart/msa/ThematiqueTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-Info/src/test/java/sn/codeart/msa/ThematiqueTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/beans/ThematiqueBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/beans/ThematiqueBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/dao/AppeloffreRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/dao/AppeloffreRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/model/Appeloffre.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/model/Appeloffre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/model/AppeloffreThematique.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/model/AppeloffreThematique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-appeloffre/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-appeloffre/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-appeloffre/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-appeloffre/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/MicroserviceAppeloffrepplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/MicroserviceAppeloffrepplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-appeloffre/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-appeloffre/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-appeloffre/src/test/java/sn/codeart/msa/ServiceAppeloffreApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-appeloffre/src/test/java/sn/codeart/msa/ServiceAppeloffreApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-chercheur/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-chercheur/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/MicroserviceChercheurApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/MicroserviceChercheurApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/controller/ChercheurController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/controller/ChercheurController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/ChercheurRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/ChercheurRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/FonctionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/FonctionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/ThematiqueRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/ThematiqueRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/events/AppeloffreThematiqueKafkaListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/events/AppeloffreThematiqueKafkaListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/AppeloffreThematique.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/AppeloffreThematique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Chercheur.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Chercheur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/ChercheurDiplome.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/ChercheurDiplome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Diplome.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Diplome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Fonction.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Fonction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Grade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Statut.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Statut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Thematique.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Thematique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/events/ProducerNotification.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/DiplomeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/DiplomeTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/FonctionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/FonctionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/GradeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/GradeTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/StatutTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/StatutTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/ThematiqueTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/ThematiqueTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/YMicroserviceChercheurApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/YMicroserviceChercheurApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/ZChercheurDiplomeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/ZChercheurDiplomeTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-notification-mail/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-notification-mail/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-notification-mail/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-notification-mail/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/MicroserviceNotificationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/MicroserviceNotificationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/events/NotificationKafkaListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/events/NotificationKafkaListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/model/Diffusion.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/model/Diffusion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/service/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/service/MailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-notification-mail/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-notification-mail/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/microservice-Info/target/" />
     <ignored path="$PROJECT_DIR$/microservice-chercheur/target/" />
@@ -118,6 +149,10 @@
     <ignored path="$PROJECT_DIR$/../config-service/target/" />
     <ignored path="$PROJECT_DIR$/config-service/target/" />
     <ignored path="$PROJECT_DIR$/microservice-notification-mail/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-pub-com/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/zuul-server/target/" />
+    <ignored path="$PROJECT_DIR$/client-ui/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,51 +163,54 @@
     <session id="-580190621">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="3" />
-          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="4" />
+          <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="3" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="240" />
-          <entry key="properties" value="57" />
-          <entry key="xml" value="8" />
+          <entry key="class" value="1" />
+          <entry key="java" value="354" />
+          <entry key="properties" value="94" />
+          <entry key="xml" value="17" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="240" />
-          <entry key="Properties" value="57" />
-          <entry key="XML" value="8" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="354" />
+          <entry key="Properties" value="94" />
+          <entry key="XML" value="17" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="41" />
-          <entry key="java" value="7121" />
-          <entry key="properties" value="1155" />
-          <entry key="xml" value="4" />
+          <entry key="dummy" value="125" />
+          <entry key="java" value="8733" />
+          <entry key="properties" value="1219" />
+          <entry key="xml" value="7" />
           <entry key="yml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7121" />
-          <entry key="PLAIN_TEXT" value="41" />
-          <entry key="Properties" value="1155" />
-          <entry key="XML" value="4" />
+          <entry key="JAVA" value="8733" />
+          <entry key="PLAIN_TEXT" value="125" />
+          <entry key="Properties" value="1219" />
+          <entry key="XML" value="7" />
           <entry key="YAML" value="11" />
         </counts>
       </usages-collector>
@@ -181,83 +219,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/proxies/MicroserviceAppeloffreProxy.java">
+        <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/myConfig/eureka-server.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/model/Appeloffre.java">
+        <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/myConfig/zuul-server.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-              <folding>
-                <element signature="e#687#688#0" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/dao/AppeloffreRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/service/AppeloffreService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/service/impl/AppeloffreServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/model/Diffusion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/model/DiffusionId.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#652#653#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="45" selection-start-column="45" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -265,29 +239,78 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/test/java/sn/codeart/msa/ServiceAppeloffreApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="67" column="75" selection-start-line="67" selection-start-column="75" selection-end-line="67" selection-end-column="75" />
+            <state relative-caret-position="-476">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/resources/bootstrap.properties">
+        <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/controller/AppeloffreController.java">
+        <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/ZuulServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="136">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client-ui/src/main/java/sn/codeart/msa/ClientUIApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client-ui/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-appeloffre/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="72" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client-ui/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -308,57 +331,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../config-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/microservice-appeloffre/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../config-service/src/main/resources/myConfig/microservice-appeloffre.properties" />
-        <option value="$PROJECT_DIR$/../config-service/src/main/resources/myConfig/microservice-chercheur.properties" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Typecommunication1.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Communication1.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Typepublication1.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Publication1.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Typecommunication.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Publication.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/A.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/AT.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Pub.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Typepub.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Typepublication.java" />
+        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/ChercheurRepository.java" />
+        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/controller/ChercheurController.java" />
+        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/events/AppeloffreThematiqueKafkaListener.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/proxies/MicroserviceInfoProxy.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/beans/ChercheurBean.java" />
+        <option value="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/CommunicationRepository.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/TypeCommunicationRepository.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/PublicationRepository.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/TypePublicationRepository.java" />
+        <option value="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/ZChercheurDiplomeTests.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Communication.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/impl/ServiceCommunicationImpl.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/ServicePublication.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/impl/ServicePublicationImpl.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/ServiceCommunication.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/MicroservicePublicationComApplicationTests.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/config-service/src/main/resources/myConfig/microservice-pub-com.properties" />
+        <option value="$PROJECT_DIR$/config-service/src/main/resources/myConfig/microservice-chercheur.properties" />
+        <option value="$PROJECT_DIR$/config-service/src/main/resources/myConfig/microservice-appeloffre.properties" />
+        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/MicroserviceAppeloffrepplication.java" />
         <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/MicroserviceChercheurApplication.java" />
-        <option value="$PROJECT_DIR$/config-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/model/AppelOffreThematiqueId.java" />
-        <option value="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/model/AppeloffreThematique.java" />
-        <option value="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/AppelOffreThematiqueId.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/AppeloffreThematique.java" />
-        <option value="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/beans/ThematiqueBean.java" />
-        <option value="$PROJECT_DIR$/microservice-notification-mail/pom.xml" />
-        <option value="$PROJECT_DIR$/config-service/src/main/resources/myConfig/microservice-appeloffre.properties" />
-        <option value="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/events/ProducerNotificationKafkaListener.java" />
-        <option value="$PROJECT_DIR$/config-service/src/main/resources/myConfig/microservice-chercheur.properties" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/YMicroserviceChercheurApplicationTests.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Thematique.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Chercheur.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/beans/DiffusionBean.java" />
-        <option value="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/beans/DiffusionBean.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/events/ProducerNotification.java" />
-        <option value="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/beans/AppeloffreThematique.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/ThematiqueRepository.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/MicroserviceNotificationApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/beans/ThematiqueBean.java" />
-        <option value="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/beans/AppeloffreThematique.java" />
-        <option value="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/beans/ChercheurBean.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/ChercheurRepository.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/events/AppeloffreThematiqueKafkaListener.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/controller/ChercheurController.java" />
-        <option value="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/model/DiffusionId.java" />
-        <option value="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/model/Diffusion.java" />
-        <option value="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/controller/RegistrationController.java" />
-        <option value="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/dao/DiffusionRepository.java" />
-        <option value="$PROJECT_DIR$/microservice-notification-mail/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/controller/AppeloffreController.java" />
-        <option value="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/beans/AppeloffreBean.java" />
-        <option value="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java" />
-        <option value="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/events/NotificationKafkaListener.java" />
-        <option value="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/service/MailService.java" />
-        <option value="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/service/AppeloffreService.java" />
-        <option value="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/model/Appeloffre.java" />
-        <option value="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/dao/AppeloffreRepository.java" />
-        <option value="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/service/impl/AppeloffreServiceImpl.java" />
-        <option value="$PROJECT_DIR$/microservice-appeloffre/src/test/java/sn/codeart/msa/ServiceAppeloffreApplicationTests.java" />
-        <option value="$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/proxies/MicroserviceAppeloffreProxy.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/MicroservicePubComApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/java/sn/codeart/msa/EurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/config-service/src/main/resources/myConfig/eureka-server.properties" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/microservice-appeloffre/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/config-service/src/main/resources/myConfig/zuul-server.properties" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/MsaApplication.java" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/ZuulServerApplication.java" />
+        <option value="$PROJECT_DIR$/client-ui/src/main/java/sn/codeart/msa/MsaApplication.java" />
+        <option value="$PROJECT_DIR$/client-ui/pom.xml" />
+        <option value="$PROJECT_DIR$/client-ui/src/main/java/sn/codeart/msa/ClientUIApplication.java" />
+        <option value="$PROJECT_DIR$/client-ui/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java" />
       </list>
     </option>
   </component>
@@ -379,9 +402,57 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="msa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="msa" type="462c0819:PsiDirectoryNode" />
+              <item name="proxies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="config-service" type="462c0819:PsiDirectoryNode" />
@@ -411,6 +482,43 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="myConfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="msa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
@@ -589,25 +697,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="msa" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-chercheur" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="msa" type="462c0819:PsiDirectoryNode" />
               <item name="events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-chercheur" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="msa" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
@@ -648,29 +738,29 @@
             </path>
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-notification-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-pub-com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-notification-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-pub-com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-notification-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-pub-com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-notification-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-pub-com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-notification-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-pub-com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -678,7 +768,7 @@
             </path>
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-notification-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-pub-com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -687,16 +777,7 @@
             </path>
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-notification-mail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="msa" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-notification-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-pub-com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -705,16 +786,7 @@
             </path>
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-notification-mail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="msa" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-notification-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-pub-com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -723,7 +795,7 @@
             </path>
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-notification-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-pub-com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -732,7 +804,7 @@
             </path>
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-notification-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-pub-com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -741,7 +813,75 @@
             </path>
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-notification-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-pub-com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="msa" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-pub-com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-pub-com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-pub-com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-pub-com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="msa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="msa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -750,8 +890,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -761,8 +899,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572956028065" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-notification-mail" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574167175195" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client-ui" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -773,12 +911,13 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="sn.codeart.msa.proxies" />
+      <recent name="sn.codeart.msa.service.impl" />
+      <recent name="sn.codeart.msa.service" />
       <recent name="sn.codeart.msa.beans" />
-      <recent name="sn.codeart.msa.model" />
       <recent name="sn.codeart.msa.dao" />
-      <recent name="sn.codeart.msa" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Junior\Mes_Cours\Master2_Info\SOA_Urbanisation_des_SI\Mémoire\micro_service\workspace\config-service\src\main\resources\myConfig" />
       <recent name="C:\Junior\Mes_Cours\Master2_Info\SOA_Urbanisation_des_SI\Mémoire\micro_service\workspace\microservice-chercheur\src\main\java\sn\codeart\msa\dao" />
       <recent name="C:\Junior\Mes_Cours\Master2_Info\SOA_Urbanisation_des_SI\Mémoire\micro_service\workspace\microservice-chercheur\src\test\java\sn\codeart\msa" />
       <recent name="C:\Junior\Mes_Cours\Master2_Info\SOA_Urbanisation_des_SI\Mémoire\micro_service\workspace\microservice-chercheur\src\main\java\sn\codeart\msa\model" />
@@ -802,7 +941,7 @@
     </option>
     <option name="contentProportion" value="0.34382766" />
   </component>
-  <component name="RunManager" selected="JUnit.ServiceAppeloffreApplicationTests">
+  <component name="RunManager" selected="JUnit.MicroservicePublicationComApplicationTests">
     <configuration name="DiplomeTests and 6 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="msa (1)" />
       <option name="TEST_OBJECT" value="pattern" />
@@ -831,6 +970,20 @@
         <pattern testClass="sn.codeart.msa.YMicroserviceChercheurApplicationTests" />
         <pattern testClass="sn.codeart.msa.ZChercheurDiplomeTests" />
       </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroservicePublicationComApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msa (4)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sn.codeart.msa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sn.codeart.msa" />
+      <option name="MAIN_CLASS_NAME" value="sn.codeart.msa.MicroservicePublicationComApplicationTests" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -877,9 +1030,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ClientUIApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="msa (7)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="sn.codeart.msa.ClientUIApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="msa" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="sn.codeart.msa.ConfigServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="msa (5)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="sn.codeart.msa.EurekaServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -905,18 +1073,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MicroservicePubComApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="msa (4)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="sn.codeart.msa.MicroservicePubComApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="msa (6)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="sn.codeart.msa.ZuulServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.MicroserviceAppeloffrepplication" />
-      <item itemvalue="Spring Boot.MicroserviceChercheurApplication" />
       <item itemvalue="Spring Boot.MicroserviceNotificationApplication" />
       <item itemvalue="Spring Boot.ConfigServiceApplication" />
+      <item itemvalue="Spring Boot.MicroservicePubComApplication" />
+      <item itemvalue="Spring Boot.MicroserviceChercheurApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="JUnit.ServiceAppeloffreApplicationTests" />
       <item itemvalue="JUnit.ThematiqueTests" />
       <item itemvalue="JUnit.YMicroserviceChercheurApplicationTests" />
       <item itemvalue="JUnit.DiplomeTests and 6 more" />
+      <item itemvalue="JUnit.MicroservicePublicationComApplicationTests" />
+      <item itemvalue="Spring Boot.ZuulServerApplication" />
+      <item itemvalue="Spring Boot.ClientUIApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MicroservicePublicationComApplicationTests" />
         <item itemvalue="JUnit.ServiceAppeloffreApplicationTests" />
         <item itemvalue="JUnit.YMicroserviceChercheurApplicationTests" />
         <item itemvalue="JUnit.ThematiqueTests" />
@@ -950,48 +1140,55 @@
       <workItem from="1572565655270" duration="16922000" />
       <workItem from="1572690261511" duration="2725000" />
       <workItem from="1572821369439" duration="36228000" />
+      <workItem from="1572968242152" duration="7166000" />
+      <workItem from="1573120972990" duration="54000" />
+      <workItem from="1573553699692" duration="7379000" />
+      <workItem from="1573575076616" duration="3241000" />
+      <workItem from="1573833626083" duration="2016000" />
+      <workItem from="1574011761405" duration="20776000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ServiceAppeloffreApplicationTests - 2019.11.04 at 14h 58m 06s.xml">
-      <configuration name="ServiceAppeloffreApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServiceAppeloffreApplicationTests - 2019.11.04 at 15h 01m 25s.xml">
-      <configuration name="ServiceAppeloffreApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThematiqueTests - 2019.11.04 at 15h 32m 52s.xml">
-      <configuration name="ThematiqueTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YMicroserviceChercheurApplicationTests - 2019.11.04 at 15h 33m 25s.xml">
-      <configuration name="YMicroserviceChercheurApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServiceAppeloffreApplicationTests - 2019.11.04 at 15h 49m 19s.xml">
-      <configuration name="ServiceAppeloffreApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServiceAppeloffreApplicationTests - 2019.11.04 at 16h 18m 23s.xml">
-      <configuration name="ServiceAppeloffreApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServiceAppeloffreApplicationTests - 2019.11.05 at 10h 21m 40s.xml">
-      <configuration name="ServiceAppeloffreApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServiceAppeloffreApplicationTests - 2019.11.05 at 11h 12m 38s.xml">
-      <configuration name="ServiceAppeloffreApplicationTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ServiceAppeloffreApplicationTests - 2019.11.05 at 11h 13m 20s.xml">
       <configuration name="ServiceAppeloffreApplicationTests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ServiceAppeloffreApplicationTests - 2019.11.05 at 11h 33m 12s.xml">
       <configuration name="ServiceAppeloffreApplicationTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ThematiqueTests - 2019.11.06 at 09h 46m 24s.xml">
+      <configuration name="ThematiqueTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YMicroserviceChercheurApplicationTests - 2019.11.06 at 09h 46m 55s.xml">
+      <configuration name="YMicroserviceChercheurApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceAppeloffreApplicationTests - 2019.11.06 at 09h 48m 16s.xml">
+      <configuration name="ServiceAppeloffreApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceAppeloffreApplicationTests - 2019.11.06 at 09h 49m 22s.xml">
+      <configuration name="ServiceAppeloffreApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MicroservicePublicationComApplicationTests - 2019.11.17 at 19h 46m 43s.xml">
+      <configuration name="MicroservicePublicationComApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MicroservicePublicationComApplicationTests - 2019.11.17 at 19h 58m 10s.xml">
+      <configuration name="MicroservicePublicationComApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MicroservicePublicationComApplicationTests - 2019.11.17 at 19h 59m 44s.xml">
+      <configuration name="MicroservicePublicationComApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MicroservicePublicationComApplicationTests - 2019.11.17 at 20h 29m 15s.xml">
+      <configuration name="MicroservicePublicationComApplicationTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161726000" />
+    <option name="totallyTimeSpent" value="202358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36275303" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33360323" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1000,8 +1197,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5437063" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.6206294" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28846154" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1013,7 +1210,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32867134" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.4979757" visible="true" weight="0.5629371" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.4979757" visible="true" weight="0.23426573" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1038,319 +1235,408 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/DiplomeRepository.java">
+    <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/events/NotificationKafkaListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        <state relative-caret-position="-103">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/ZChercheurDiplomeTests.java">
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Communication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/GradeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/YMicroserviceChercheurApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Thematique.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="16" column="65" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="461" selection-start-line="461" selection-end-line="461" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/beans/DiffusionBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/MicroserviceChercheurApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/events/ProducerNotification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="22" lean-forward="true" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/AppeloffreThematique.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/beans/ThematiqueBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-notification-mail/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/MicroserviceAppeloffrepplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/myConfig/microservice-chercheur.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/beans/ThematiqueBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/beans/AppeloffreThematique.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/beans/AppeloffreThematique.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/model/AppeloffreThematique.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/proxies/MicroserviceInfoProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Chercheur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="223" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="223" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/ThematiqueRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/beans/ThematiqueBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="152">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/events/AppeloffreThematiqueKafkaListener.java">
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Typecommunication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="45" column="98" selection-start-line="45" selection-start-column="98" selection-end-line="45" selection-end-column="98" />
+        <state relative-caret-position="306">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Publication1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
+            <element signature="e#1587#1588#0" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+            <element signature="e#1659#1660#0" expanded="true" />
+            <element signature="e#1691#1692#0" expanded="true" />
+            <element signature="e#1741#1742#0" expanded="true" />
+            <element signature="e#1783#1784#0" expanded="true" />
+            <element signature="e#1817#1818#0" expanded="true" />
+            <element signature="e#1847#1848#0" expanded="true" />
+            <element signature="e#1893#1894#0" expanded="true" />
+            <element signature="e#1931#1932#0" expanded="true" />
+            <element signature="e#1970#1971#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#2061#2062#0" expanded="true" />
+            <element signature="e#2109#2110#0" expanded="true" />
+            <element signature="e#2142#2143#0" expanded="true" />
+            <element signature="e#2171#2172#0" expanded="true" />
+            <element signature="e#2215#2216#0" expanded="true" />
+            <element signature="e#2251#2252#0" expanded="true" />
+            <element signature="e#2284#2285#0" expanded="true" />
+            <element signature="e#2315#2316#0" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2431#2432#0" expanded="true" />
+            <element signature="e#2460#2461#0" expanded="true" />
+            <element signature="e#2501#2502#0" expanded="true" />
+            <element signature="e#2537#2538#0" expanded="true" />
+            <element signature="e#2589#2590#0" expanded="true" />
+            <element signature="e#2627#2628#0" expanded="true" />
+            <element signature="e#2699#2700#0" expanded="true" />
+            <element signature="e#2753#2754#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Typepublication1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Publication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Typepublication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Typecommunication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Typepublication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Publication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1355#1356#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
+            <element signature="e#1579#1580#0" expanded="true" />
+            <element signature="e#1615#1616#0" expanded="true" />
+            <element signature="e#1647#1648#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#1739#1740#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1803#1804#0" expanded="true" />
+            <element signature="e#1849#1850#0" expanded="true" />
+            <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="e#1926#1927#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
+            <element signature="e#2017#2018#0" expanded="true" />
+            <element signature="e#2065#2066#0" expanded="true" />
+            <element signature="e#2098#2099#0" expanded="true" />
+            <element signature="e#2127#2128#0" expanded="true" />
+            <element signature="e#2171#2172#0" expanded="true" />
+            <element signature="e#2207#2208#0" expanded="true" />
+            <element signature="e#2240#2241#0" expanded="true" />
+            <element signature="e#2271#2272#0" expanded="true" />
+            <element signature="e#2317#2318#0" expanded="true" />
+            <element signature="e#2357#2358#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+            <element signature="e#2416#2417#0" expanded="true" />
+            <element signature="e#2457#2458#0" expanded="true" />
+            <element signature="e#2493#2494#0" expanded="true" />
+            <element signature="e#2518#2519#0" expanded="true" />
+            <element signature="e#2543#2544#0" expanded="true" />
+            <element signature="e#2575#2576#0" expanded="true" />
+            <element signature="e#2603#2604#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/ChercheurRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/controller/ChercheurController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="78" />
+        <state relative-caret-position="170">
+          <caret line="25" selection-start-line="25" selection-end-line="26" selection-end-column="80" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/beans/ChercheurBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/ChercheurDiplome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/ChercheurDiplomeId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/controller/RegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/MicroserviceNotificationApplication.java">
+    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/YMicroserviceChercheurApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/model/User.java">
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/beans/ChercheurBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="-187">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/dao/DiffusionRepository.java">
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/microservice-chercheur/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/ZChercheurDiplomeTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/dao/AppeloffreThematiqueRepository.java">
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="119">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/beans/AppeloffreBean.java">
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/PublicationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/CommunicationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/TypePublicationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/TypeCommunicationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Communication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/ServicePublication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/impl/ServicePublicationImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/service/MailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="44" column="11" lean-forward="true" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/events/NotificationKafkaListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/controller/AppeloffreController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/service/AppeloffreService.java">
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/ServiceCommunication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
@@ -1360,81 +1646,176 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/model/Appeloffre.java">
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/impl/ServiceCommunicationImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding>
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/dao/AppeloffreRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/service/impl/AppeloffreServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+        <state relative-caret-position="171">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/test/java/sn/codeart/msa/ServiceAppeloffreApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/myConfig/microservice-pub-com.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="67" column="75" selection-start-line="67" selection-start-column="75" selection-end-line="67" selection-end-column="75" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/proxies/MicroserviceAppeloffreProxy.java">
+    <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/myConfig/microservice-chercheur.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+        <state relative-caret-position="34">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/MicroservicePublicationComApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/MicroserviceAppeloffrepplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/MicroservicePubComApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/MicroserviceChercheurApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/sn/codeart/msa/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/myConfig/microservice-appeloffre.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="17">
+          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="170">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/model/Diffusion.java">
+    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/events/AppeloffreThematiqueKafkaListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="95">
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/test/java/sn/codeart/msa/ServiceAppeloffreApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/myConfig/eureka-server.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/myConfig/zuul-server.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/ZuulServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="72" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-ui/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-ui/src/main/java/sn/codeart/msa/ClientUIApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/model/DiffusionId.java">
+    <entry file="file://$PROJECT_DIR$/client-ui/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1491,7 +1872,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>msa (3)</last-edited>
+          <last-edited>msa (7)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

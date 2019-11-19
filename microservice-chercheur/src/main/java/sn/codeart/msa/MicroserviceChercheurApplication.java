@@ -9,7 +9,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableConfigurationProperties
 @EnableFeignClients("sn.codeart.msa")
-@EnableDiscoveryClient(autoRegister = false)
+@EnableDiscoveryClient
 @SpringBootApplication
 public class MicroserviceChercheurApplication implements CommandLineRunner {
 

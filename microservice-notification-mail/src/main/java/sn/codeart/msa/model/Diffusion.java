@@ -6,6 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.IdClass;
 import javax.persistence.Transient;
+import java.util.Date;
 import java.util.List;
 
 @Entity
@@ -15,6 +16,7 @@ public class Diffusion {
     private int idAppeloffre;
     @Id
     private int idChercheur;
+    private Date date;
 
     public Diffusion() {
     }
@@ -33,5 +35,13 @@ public class Diffusion {
 
     public void setIdChercheur(int idChercheur) {
         this.idChercheur = idChercheur;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
     }
 }

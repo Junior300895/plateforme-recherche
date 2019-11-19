@@ -13,6 +13,8 @@ import sn.codeart.msa.model.Diffusion;
 import sn.codeart.msa.model.User;
 import sn.codeart.msa.proxies.MicroserviceAppeloffreProxy;
 
+import java.util.Date;
+
 @Component
 public class MailService {
     /*
@@ -46,6 +48,7 @@ public class MailService {
         Diffusion diffusion = new Diffusion();
         diffusion.setIdAppeloffre(idAO);
         diffusion.setIdChercheur(chercheurBean.getIdChercheur());
+        diffusion.setDate(new Date());
         diffusionRepository.save(diffusion);
     }
 }

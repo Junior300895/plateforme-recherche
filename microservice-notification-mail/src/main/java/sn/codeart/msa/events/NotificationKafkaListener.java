@@ -33,7 +33,6 @@ public class NotificationKafkaListener {
 
         List<ChercheurBean> chercheurList = microserviceChercheurProxy.
                 findChercheursByThematiques(appeloffreThematique.getIdThematique());
-
         this.sendMailToChercheurs(chercheurList, appeloffreThematique.getIdAppeloffre());
     }
 

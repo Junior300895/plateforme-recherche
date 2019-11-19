@@ -54,7 +54,7 @@ class ServiceAppeloffreApplicationTests {
                 "APPEL A PROJETS DE RECHERCHE CONJOINTS SÉNÉGAL ET BURKINA FASO",
                 appeloffre1.getIntitule());
 
-        // Ajout de theme pour l'AO
+        // Assignation de theme pour l'AO
         thematiqueBean = microserviceChercheurProxy.findThematiqueByLibeleCourt("Deep Learning");
 
         AppeloffreThematique appeloffreThematique = new AppeloffreThematique();

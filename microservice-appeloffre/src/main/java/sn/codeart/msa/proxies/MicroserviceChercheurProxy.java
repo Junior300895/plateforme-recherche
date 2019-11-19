@@ -11,7 +11,6 @@ import java.util.List;
 @Component
 @FeignClient(name = "microservice-chercheur", url = "localhost:9001")
 public interface MicroserviceChercheurProxy {
-
     @GetMapping(value = "/getThematique/{lc}")
     ThematiqueBean findThematiqueByLibeleCourt(@PathVariable("lc") String lc);
 }
