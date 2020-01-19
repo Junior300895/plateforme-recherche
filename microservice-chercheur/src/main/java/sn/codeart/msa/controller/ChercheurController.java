@@ -28,16 +28,16 @@ public class ChercheurController {
         return chercheurRepository.findChercheurByEmail(email);
     }
 
-    @GetMapping(value = "/thematiques")
+    @GetMapping(value = "/listThematiques")
     public List<Thematique> findAllThematique() {
         return thematiqueRepository.findAll();
     }
 
-    @GetMapping(value = "/getThematique/{lc}")
+    @GetMapping(value = "/getThematiqueByLc/{lc}")
     public Thematique findThematiqueByLibeleCourt(@PathVariable("lc") String lc) {
         return thematiqueRepository.findThematiqueByLibeleCourt(lc);
     }
-    @GetMapping(value = "/getIdThematique/{idTh}")
+    @GetMapping(value = "/getThematiqueById/{idTh}")
     public Thematique findThematiqueByIdthematique(@PathVariable("idTh") int idTh) {
         return thematiqueRepository.findThematiqueByIdThematique(idTh);
     }

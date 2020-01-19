@@ -62,13 +62,13 @@ class ServiceAppeloffreApplicationTests {
         appeloffreThematique.setIdThematique(thematiqueBean.getIdThematique());
 
         appeloffreThematique = appeloffreThematiqueRepository.save(appeloffreThematique);
-        createEventAOTheme(appeloffreThematique);
+        //createEventAOTheme(appeloffreThematique);
 
         sn.codeart.msa.beans.AppeloffreThematique appeloffreThematique1 = new sn.codeart.msa.beans.AppeloffreThematique();
         appeloffreThematique1.setIdAppeloffre(appeloffre1.getIdAppeloffre());
         appeloffreThematique1.setIdThematique(thematiqueBean.getIdThematique());
 
-        createEventNotifyChercheur(appeloffreThematique1);
+        //createEventNotifyChercheur(appeloffreThematique1);
     }
 
     /**

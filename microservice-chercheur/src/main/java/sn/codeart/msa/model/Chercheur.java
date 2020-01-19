@@ -43,6 +43,9 @@ public class Chercheur {
     @OneToMany(mappedBy = "chercheur", fetch = FetchType.LAZY)
     private List<ChercheurDiplome> diplomes;
 
+    @OneToMany(mappedBy = "chercheur", fetch = FetchType.LAZY)
+    private List<ChercheurPublication> chercheurPublications;
+
     public Chercheur() {
     }
 
