@@ -1,5 +1,7 @@
 package sn.codeart.msa.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -10,6 +12,8 @@ public class Fonction {
     private int idFonction;
     private String libeleCourt;
     private String libeleLong;
+
+    @JsonIgnore
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "fonction")
     private List<Chercheur> chercheurs;
 
@@ -54,7 +58,7 @@ public class Fonction {
                 "idFonction=" + idFonction +
                 ", libeleCourt='" + libeleCourt + '\'' +
                 ", libeleLong='" + libeleLong + '\'' +
-                ", chercheurs=" + chercheurs +
+                //", chercheurs=" + chercheurs +
                 '}';
     }
 }

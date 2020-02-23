@@ -7,4 +7,5 @@ import sn.codeart.msa.model.Grade;
 @RepositoryRestResource
 public interface GradeRepository extends JpaRepository<Grade, Integer> {
     public Grade findGradeByLibeleCourt(String lc);
+    public Grade findGradeByIdGrade(int id);
 }

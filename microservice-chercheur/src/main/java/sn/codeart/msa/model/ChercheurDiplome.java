@@ -1,5 +1,7 @@
 package sn.codeart.msa.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.Date;
 
@@ -13,6 +15,7 @@ public class ChercheurDiplome {
     private Date annee;
     private String mention;
     private String lieuObtention;
+    @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "idChercheur", referencedColumnName = "idChercheur", nullable = false,
             insertable = false, updatable = false)

@@ -1,5 +1,7 @@
 package sn.codeart.msa.service.impl;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -19,6 +21,8 @@ import java.util.List;
 @Service
 @Transactional
 public class AccountServiceImpl implements AccountService {
+    private final Logger log = LoggerFactory.getLogger(AccountServiceImpl.class);
+
     private AppUserRepository appUserRepository;
     private AppRoleRepository appRoleRepository;
     @Autowired
@@ -55,7 +59,7 @@ public class AccountServiceImpl implements AccountService {
     @Override
     public AppUser saveUser(AppUser appUser, List<String> roles) {
         AppUser  user=appUserRepository.findAppUserByMail(appUser.getMail());
-        if(user!=null) throw new RuntimeException("User already exists");
+        if(user!=null && user.getRoles().isEmpty()) throw new RuntimeException("User already exists");
         appUser.setActived(true);
         appUser.setPassword(bCryptPasswordEncoder.encode(appUser.getPassword()));
         appUserRepository.save(appUser);
@@ -82,5 +86,16 @@ public class AccountServiceImpl implements AccountService {
             appRoles.add(appRole);
         });
         appUser.getRoles().addAll(appRoles);
+    }
+
+    @Override
+    public AppUser deleteAppUser(String email) {
+        AppUser appUser = loadUserByUsername(email);
+        if(appUser!=null){
+            log.info("user {} exist", email);
+            appUserRepository.delete(appUser);
+            return appUser;
+        }
+        return null;
     }
 }

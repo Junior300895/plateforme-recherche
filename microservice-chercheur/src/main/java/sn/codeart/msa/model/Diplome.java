@@ -1,5 +1,7 @@
 package sn.codeart.msa.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -10,7 +12,8 @@ public class Diplome {
     private int idDiplome;
     private String libeleCourt;
     private String libeleLong;
-    @OneToMany(mappedBy = "diplome", fetch = FetchType.EAGER)
+    @JsonIgnore
+    @OneToMany(mappedBy = "diplome", fetch = FetchType.LAZY)
     private List<ChercheurDiplome> chercheurs;
 
     public Diplome() {

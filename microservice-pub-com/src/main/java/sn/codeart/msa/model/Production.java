@@ -20,10 +20,7 @@ public class Production {
     private String motcle;
     private Date anneepub;
     private int numvol;
-    private int idThematique;
-    private String nomThematique;
     private String pages;
-    private String auteur;
     private String lieu;
     private String evenement;
     private String langue;
@@ -31,23 +28,26 @@ public class Production {
     private Date datedebutcommunication;
     private Date datefincommunication;
 
+    @Embedded
+    private Thematique thematique;
+
     @JsonIgnore
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "Id_TypeProd")
-    private TypeProduction TypeProduction;
+    private TypeProduction typeProduction;
 
     @JsonIgnore
-    @OneToMany(mappedBy = "production", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "production", fetch = FetchType.EAGER)
     private List<ChercheurProduction> chercheurProductions;
 
     public Production() {
     }
 
-    public int getIdPublication() {
+    public int getIdProduction() {
         return idProduction;
     }
 
-    public void setIdPublication(int idProduction) {
+    public void setIdProduction(int idProduction) {
         this.idProduction = idProduction;
     }
 
@@ -123,36 +123,12 @@ public class Production {
         this.numvol = numvol;
     }
 
-    public int getIdThematique() {
-        return idThematique;
-    }
-
-    public void setIdThematique(int idThematique) {
-        this.idThematique = idThematique;
-    }
-
-    public String getNomThematique() {
-        return nomThematique;
-    }
-
-    public void setNomThematique(String nomThematique) {
-        this.nomThematique = nomThematique;
-    }
-
     public String getPages() {
         return pages;
     }
 
     public void setPages(String pages) {
         this.pages = pages;
-    }
-
-    public String getAuteur() {
-        return auteur;
-    }
-
-    public void setAuteur(String auteur) {
-        this.auteur = auteur;
     }
 
     public String getLieu() {
@@ -203,12 +179,12 @@ public class Production {
         this.datefincommunication = datefincommunication;
     }
 
-    public sn.codeart.msa.model.TypeProduction getTypeProduction() {
-        return TypeProduction;
+    public TypeProduction getTypeProduction() {
+        return typeProduction;
     }
 
-    public void setTypeProduction(sn.codeart.msa.model.TypeProduction typeProduction) {
-        TypeProduction = typeProduction;
+    public void setTypeProduction(TypeProduction typeProduction) {
+        this.typeProduction = typeProduction;
     }
 
     public List<ChercheurProduction> getChercheurProductions() {
@@ -217,5 +193,13 @@ public class Production {
 
     public void setChercheurProductions(List<ChercheurProduction> chercheurProductions) {
         this.chercheurProductions = chercheurProductions;
+    }
+
+    public Thematique getThematique() {
+        return thematique;
+    }
+
+    public void setThematique(Thematique thematique) {
+        this.thematique = thematique;
     }
 }

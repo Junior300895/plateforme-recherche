@@ -1,5 +1,7 @@
 package sn.codeart.msa.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -10,7 +12,8 @@ public class Statut {
     private int idStatut;
     private String libeleCourt;
     private String libeleLong;
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "fonction")
+    @JsonIgnore
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "statut")
     private List<Chercheur> chercheurs;
 
     public Statut() {
@@ -54,7 +57,7 @@ public class Statut {
                 "idStatut=" + idStatut +
                 ", libeleCourt='" + libeleCourt + '\'' +
                 ", libeleLong='" + libeleLong + '\'' +
-                ", chercheurs=" + chercheurs +
+             //   ", chercheurs=" + chercheurs +
                 '}';
     }
 }

@@ -1,17 +1,21 @@
 package sn.codeart.msa.service;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import sn.codeart.msa.model.Production;
 import sn.codeart.msa.util.Constante;
 
 import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.fail;
 
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 @SpringBootTest
 class ProductionServiceTest {
     @Autowired
@@ -20,18 +24,21 @@ class ProductionServiceTest {
     private static Production production1;
     private static Production production2;
     private static Production production3;
+    private static Production production4;
 
     @BeforeAll
     static void setUp() {
         production1 = new Production();
         production2 = new Production();
         production3 = new Production();
+        production4 = new Production();
     }
 
     @AfterEach
     void tearDown() {
     }
 
+    @Order(1)
     @Test
     void saveProduction() {
         /**
@@ -81,19 +88,59 @@ class ProductionServiceTest {
 
 //        Assert.assertEquals("Test sur communication 1","Dakar/Senegal", production3.getRevuelieu());
     }
+//    @Order(2)
+//    @Test
+//    void saveProductionWithAuthors() {
+//            fail("test non implémenté");
+//        /**
+//         * Production 1 with author
+//         */
+//        production4.setLibelelong("« Le scepticisme chez Sextus Empiricus et l’école médicale " +
+//                "méthodiste : vraie proximité ou simple coïncidence? »");
+//        production4.setRevuelieu("Petite côte Afrique-SUD");
+//        production4.setNumvol(5);
+//        production4.setPages("55");
+//        production4.setDateproduction(new Date());
+//        production4.setLangue("Français");
+//
+//        Map<String, Integer> emails = new HashMap<>();
+//        emails.put("juniorndoye95@gmail.com",5);
+//        emails.put("diallodiery301@gmail.com",5);
+//
+//        production4 = productionService.saveProductionWithAuthors(
+//                production4, Constante.TP1, "Deep Learning", emails);
+//        assertNotNull(production4);
+//
+//    }
+    @Order(2)
     @Test
     void addAuthorsImplicatedInPublication() {
+        Map<String, Integer> emails = new HashMap<>();
+        emails.put("juniorndoye95@gmail.com", 5);
+        boolean reussi = productionService.addAuthorsImplicatedInPublication(production1.getIdProduction(), emails);
+        assertTrue(reussi);
     }
 
     @Test
     void findAllProductions() {
+        fail("test non implémenté");
     }
 
     @Test
     void findProductionByIdProduction() {
+        fail("test non implémenté");
     }
 
     @Test
     void findChercheurProductionsByProductionOrderByRangChercheur() {
+        fail("test non implémenté");
     }
+    @Order(3)
+    @Test
+    void findProductionsByTypeProductionLibelecourt() {
+        List<Production> productions = productionService.
+                findProductionsByTypeProductionLibelecourt(Constante.TP1);
+        assertNotNull(productions);
+    }
+
 }

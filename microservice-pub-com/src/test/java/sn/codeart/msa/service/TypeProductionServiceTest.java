@@ -35,8 +35,10 @@ class TypeProductionServiceTest {
          */
         typeProduction1.setLibelecourt(Constante.TP1);
         typeProduction1 = typeProductionService.saveTypeProduction(typeProduction1, Constante.STP2);
+        assertNotNull(typeProduction1);
 
         typeProduction2.setLibelecourt(Constante.TP2);
         typeProduction2 = typeProductionService.saveTypeProduction(typeProduction2, Constante.STP1);
+        assertNotNull(typeProduction2);
     }
 }

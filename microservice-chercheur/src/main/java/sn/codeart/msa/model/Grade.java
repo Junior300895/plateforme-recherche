@@ -1,5 +1,7 @@
 package sn.codeart.msa.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -10,7 +12,8 @@ public class Grade {
     private int idGrade;
     private String libeleCourt;
     private String libeleLong;
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "fonction")
+    @JsonIgnore
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "grade")
     private List<Chercheur> chercheurs;
 
     public Grade() {
@@ -54,7 +57,7 @@ public class Grade {
                 "idGrade=" + idGrade +
                 ", libeleCourt='" + libeleCourt + '\'' +
                 ", libeleLong='" + libeleLong + '\'' +
-                ", chercheurs=" + chercheurs +
+            //    ", chercheurs=" + chercheurs +
                 '}';
     }
 }

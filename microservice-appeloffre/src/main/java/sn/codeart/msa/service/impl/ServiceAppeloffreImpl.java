@@ -39,11 +39,10 @@ public class ServiceAppeloffreImpl implements ServiceAppeloffre {
     @Override
     public Appeloffre saveAppeloffre(Appeloffre appeloffre, String thematiqueLibeleCourt) {
         ThematiqueBean thematiqueBean = microserviceChercheurProxy.findThematiqueByLibeleCourt(thematiqueLibeleCourt);
-        AppeloffreThematique appeloffreThematique = new AppeloffreThematique();
-        appeloffreThematique.setIdAppeloffre(appeloffre.getIdAppeloffre());
-        appeloffreThematique.setIdThematique(thematiqueBean.getIdThematique());
-        appeloffreThematiqueRepository.save(appeloffreThematique);
-
+        //AppeloffreThematique appeloffreThematique = new AppeloffreThematique();
+        //appeloffreThematique.setIdAppeloffre(appeloffre.getIdAppeloffre());
+        //appeloffreThematique.setIdThematique(thematiqueBean.getIdThematique());
+        //appeloffreThematiqueRepository.save(appeloffreThematique);
 
         appeloffre.setDate_parution(new Date());
         appeloffre = appeloffreRepository.save(appeloffre);

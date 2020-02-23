@@ -9,8 +9,12 @@ public class ChercheurProduction {
     @Id @GeneratedValue
     private int id;
     private int rangChercheur;
-    private String nomChercheur;
-    private int idChercheur;
+    private boolean miseEnLignePar;
+//    private String nomChercheur;
+//    private String emailChercheur;
+//    private int idChercheur;
+    @Embedded
+    private Chercheur chercheur;
 
     @JsonIgnore
     @ManyToOne(fetch = FetchType.EAGER)
@@ -19,21 +23,11 @@ public class ChercheurProduction {
 
     public ChercheurProduction() {
     }
-
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
-    }
-
-    public int getIdChercheur() {
-        return idChercheur;
-    }
-
-    public void setIdChercheur(int idChercheur) {
-        this.idChercheur = idChercheur;
     }
 
     public int getRangChercheur() {
@@ -44,13 +38,22 @@ public class ChercheurProduction {
         this.rangChercheur = rangChercheur;
     }
 
-    public String getNomChercheur() {
-        return nomChercheur;
+    public boolean isMiseEnLignePar() {
+        return miseEnLignePar;
     }
 
-    public void setNomChercheur(String nomChercheur) {
-        this.nomChercheur = nomChercheur;
+    public void setMiseEnLignePar(boolean miseEnLignePar) {
+        this.miseEnLignePar = miseEnLignePar;
     }
+
+    public Chercheur getChercheur() {
+        return chercheur;
+    }
+
+    public void setChercheur(Chercheur chercheur) {
+        this.chercheur = chercheur;
+    }
+
     public Production getProduction() {
         return production;
     }

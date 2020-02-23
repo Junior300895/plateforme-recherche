@@ -31,10 +31,12 @@ public class SecurityConfig1 extends WebSecurityConfigurerAdapter {
 		http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 		http.authorizeRequests().antMatchers(
 				"/login/**","/register/**","/appUsers/{email}",
-				"/api/ms-ch/**","/api/ms-ao/**","/api/ms-pubcom/**").permitAll();
+				"/api/ms-ch/**","/api/ms-ao/**",
+				"/api/ms-pubcom/**","/api/ms-struct/**").permitAll();
 		http.authorizeRequests().antMatchers("/appUsers/**","/appRoles/**").hasAuthority("ADMIN");
 		http.authorizeRequests().antMatchers("/appUsers/**","/appRoles/**").hasAuthority("ADMIN");
 		http.authorizeRequests().antMatchers("/saveUser/").hasAuthority("ADMIN");
+		http.authorizeRequests().antMatchers("/deleteAppUser/**").hasAuthority("ADMIN");
 		//http.authorizeRequests().antMatchers("/api/ms-ao/appeloffres").hasAuthority("ADMIN");
 		http.authorizeRequests().anyRequest().authenticated();
 		http.addFilter(new JWTAuthenticationFilter(authenticationManager()));

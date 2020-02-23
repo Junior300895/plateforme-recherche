@@ -9,7 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-pub-com/msa (4).iml" filepath="$PROJECT_DIR$/microservice-pub-com/msa (4).iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/msa (5).iml" filepath="$PROJECT_DIR$/eureka-server/msa (5).iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul-server/msa (6).iml" filepath="$PROJECT_DIR$/zuul-server/msa (6).iml" />
-      <module fileurl="file://$PROJECT_DIR$/client-ui/msa (7).iml" filepath="$PROJECT_DIR$/client-ui/msa (7).iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-structure/msa (7).iml" filepath="$PROJECT_DIR$/microservice-structure/msa (7).iml" />
     </modules>
   </component>
 </project>

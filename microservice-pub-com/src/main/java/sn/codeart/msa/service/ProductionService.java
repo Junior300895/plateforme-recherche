@@ -11,9 +11,13 @@ import java.util.Map;
 public interface ProductionService {
     Production saveProduction(Production production, String typeProd,
                                String chercheurBeanMail, String lcThematique);
-   // public void addAuthorsImplicatedInPublication(int idPub, List<String> emailAuthors);
-    public void addAuthorsImplicatedInPublication(int idPub, Map<Integer, String> emailAuthors);
+//    Production saveProductionWithAuthors(
+//            Production production, String typeProd,
+//            String lcThematique, Map<String, Integer> emailAuthors);
+    boolean addAuthorsImplicatedInPublication(int idPub, Map<String, Integer> emailAuthors);
     List<Production> findAllProductions();
     Production findProductionByIdProduction(int id);
     List<ChercheurProduction> findChercheurProductionsByProductionOrderByRangChercheur(int idProd);
+    List<Production> findProductionsByTypeProductionLibelecourt(String lc_tp);
+    Production deleteProduction(int id);
 }

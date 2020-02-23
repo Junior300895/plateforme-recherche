@@ -9,4 +9,5 @@ import java.util.List;
 @RepositoryRestResource
 public interface ChercheurProductionRepository extends JpaRepository<ChercheurProduction, Integer> {
     List<ChercheurProduction> findChercheurProductionsByProductionOrderByRangChercheur(Production production);
+    void deleteChercheurProductionsByProduction(Production production);
 }

@@ -7,4 +7,5 @@ import sn.codeart.msa.model.Statut;
 @RepositoryRestResource
 public interface StatutRepository extends JpaRepository<Statut, Integer> {
     public Statut findStatutByLibeleCourt(String lc);
+    public Statut findStatutByIdStatut(int id);
 }

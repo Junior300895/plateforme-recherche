@@ -15,7 +15,7 @@ public class SousTypeProduction {
     private String libelelong;
 
     @JsonIgnore
-    @OneToMany(mappedBy = "sousTypeProduction", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "sousTypeProduction", fetch = FetchType.EAGER)
     private List<TypeProduction> typeProductions;
 
     public SousTypeProduction() {

@@ -1,5 +1,7 @@
 package sn.codeart.msa.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Date;
@@ -17,36 +19,61 @@ public class Chercheur {
     @Column(unique = true)
     private String email;
     private String url_page_person;
-    private String civilité;
-    private String nationalité;
+    private String civilite;
+    private String nationalite;
     private String tel_perso;
     private String adresse_perso;
     private String tel_pro;
     private String adresse_pro;
     private String boite_postal;
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "idFonction", nullable = true)
+
+    private int idStructure;
+    private int idUniteRecherche;
+
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "idFonction", nullable = false)
     private Fonction fonction;
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "idGrade", nullable = true)
+
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "idGrade", nullable = false)
     private Grade grade;
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "idStatut", nullable = true)
+
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "idStatut", nullable = false)
     private Statut statut;
-    @ManyToMany(fetch = FetchType.LAZY)
+    //@JsonIgnore
+    @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(
             name = "chercheur_thematique",
             joinColumns = @JoinColumn(name = "idChercheur"),
             inverseJoinColumns = @JoinColumn(name = "idThematique"))
     private List<Thematique> thematiques;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "chercheur", fetch = FetchType.LAZY)
     private List<ChercheurDiplome> diplomes;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "chercheur", fetch = FetchType.LAZY)
     private List<ChercheurPublication> chercheurPublications;
 
     public Chercheur() {
+    }
+
+    public int getIdStructure() {
+        return idStructure;
+    }
+
+    public void setIdStructure(int idStructure) {
+        this.idStructure = idStructure;
+    }
+
+    public int getIdUniteRecherche() {
+        return idUniteRecherche;
+    }
+
+    public void setIdUniteRecherche(int idUniteRecherche) {
+        this.idUniteRecherche = idUniteRecherche;
     }
 
     public int getIdChercheur() {
@@ -105,20 +132,20 @@ public class Chercheur {
         this.url_page_person = url_page_person;
     }
 
-    public String getCivilité() {
-        return civilité;
+    public String getCivilite() {
+        return civilite;
     }
 
-    public void setCivilité(String civilité) {
-        this.civilité = civilité;
+    public void setCivilite(String civilite) {
+        this.civilite = civilite;
     }
 
-    public String getNationalité() {
-        return nationalité;
+    public String getNationalite() {
+        return nationalite;
     }
 
-    public void setNationalité(String nationalité) {
-        this.nationalité = nationalité;
+    public void setNationalite(String nationalite) {
+        this.nationalite = nationalite;
     }
 
     public String getTel_perso() {
@@ -199,30 +226,5 @@ public class Chercheur {
 
     public void setDiplomes(List<ChercheurDiplome> diplomes) {
         this.diplomes = diplomes;
-    }
-
-    @Override
-    public String toString() {
-        return "Chercheur{" +
-                "idChercheur=" + idChercheur +
-                ", prenom='" + prenom + '\'' +
-                ", nom='" + nom + '\'' +
-                ", ne_le=" + ne_le +
-                ", lieu_de_naissance='" + lieu_de_naissance + '\'' +
-                ", email='" + email + '\'' +
-                ", url_page_person='" + url_page_person + '\'' +
-                ", civilité='" + civilité + '\'' +
-                ", nationalité='" + nationalité + '\'' +
-                ", tel_perso='" + tel_perso + '\'' +
-                ", adresse_perso='" + adresse_perso + '\'' +
-                ", tel_pro='" + tel_pro + '\'' +
-                ", adresse_pro='" + adresse_pro + '\'' +
-                ", boite_postal='" + boite_postal + '\'' +
-                ", fonction=" + fonction +
-                ", grade=" + grade +
-                ", statut=" + statut +
-                ", thematiques=" + thematiques +
-                ", diplomes=" + diplomes +
-                '}';
     }
 }

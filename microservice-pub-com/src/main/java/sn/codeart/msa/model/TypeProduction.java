@@ -14,10 +14,11 @@ public class TypeProduction {
     @Column(unique = true)
     private String libelelong;
 
-    @OneToMany(mappedBy = "TypeProduction", fetch = FetchType.LAZY)
+    @JsonIgnore
+    @OneToMany(mappedBy = "typeProduction", fetch = FetchType.EAGER)
     private List<Production> productions;
 
-    @JsonIgnore
+    //@JsonIgnore
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "Id_SousTypeProd")
     private SousTypeProduction sousTypeProduction;

@@ -50,4 +50,8 @@ public class SecurityController {
     public AppUser findAppUserByMail(@PathVariable("email") String email){
         return appUserRepository.findAppUserByMail(email);
     }
+    @DeleteMapping(value = "/deleteAppUser/{email}")
+    public AppUser deleteAppUser(@PathVariable("email") String email){
+        return accountService.deleteAppUser(email);
+    }
 }

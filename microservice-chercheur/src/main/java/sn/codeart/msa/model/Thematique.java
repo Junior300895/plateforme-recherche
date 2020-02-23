@@ -14,7 +14,7 @@ public class Thematique {
     private String libeleLong;
 
     @JsonIgnore
-    @ManyToMany(mappedBy = "thematiques", fetch = FetchType.EAGER)
+    @ManyToMany(mappedBy = "thematiques", fetch = FetchType.LAZY)
     Set<Chercheur> chercheurs;
 
     public Thematique() {

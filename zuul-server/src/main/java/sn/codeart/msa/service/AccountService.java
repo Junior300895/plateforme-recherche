@@ -12,4 +12,5 @@ public interface AccountService {
     public AppRole save(AppRole role);
     public AppUser loadUserByUsername(String mail);
     public void addRolesToUser(String mail, List<String> rolenames);
+    AppUser deleteAppUser(String email);
 }

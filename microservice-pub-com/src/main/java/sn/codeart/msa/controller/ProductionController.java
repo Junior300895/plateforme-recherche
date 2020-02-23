@@ -7,6 +7,7 @@ import sn.codeart.msa.service.ProductionService;
 
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 //@CrossOrigin("*")
 @RestController
@@ -15,7 +16,7 @@ public class ProductionController {
     @Autowired
     private ProductionService productionService;
 
-    @GetMapping(value = "/publications/{id}")
+    @GetMapping(value = "/productions/{id}")
     public Production getPublication(@PathVariable("id") int id){
         return productionService.findProductionByIdProduction(id);
     }
@@ -23,26 +24,33 @@ public class ProductionController {
     public List<Production> getAllPublication(){
         return productionService.findAllProductions();
     }
-    @PostMapping(value = "/savePublication/{typePub}/{email}/{thematique}")
-    public Production savePublication(@RequestBody Production production,
+    @GetMapping(value = "/productionsByTp/{lctp}")
+    public List<Production> getAllPublicationByTypeProduction(@PathVariable("lctp") String lctp){
+        return productionService.findProductionsByTypeProductionLibelecourt(lctp);
+    }
+    @PostMapping(value = "/saveProduction/{typePub}/{email}/{thematique}")
+    public Production saveProduction(@RequestBody Production production,
                                       @PathVariable("typePub") String typePub,
                                       @PathVariable("email") String emailChercheur,
                                       @PathVariable("thematique") String thematique){
         return productionService.saveProduction(production,typePub,emailChercheur,thematique);
     }
-    @PostMapping(value = "/savePublicationWithAuthors/{id}")
-    public void savePublicationWithAuthors(@PathVariable("id") int id,
-                                                  HashMap<Integer, String> emails){
+//    @PostMapping(value = "/saveProductionWithAuthors/{typePub}/{thematique}")
+//    public Production saveProductionWithAuthors(
+//            @RequestBody Production production,
+//            @RequestBody Map<String, Integer> emailAuthors,
+//            @PathVariable("typePub") String typePub,
+//            @PathVariable("thematique") String thematique
+//                                  ){
+//        return productionService.saveProductionWithAuthors(production,typePub,thematique,emailAuthors);
+//    }
+    @PostMapping(value = "/addAuthorsImplicatedInPublication/{id}")
+    public void saveProductionWithAuthors(@PathVariable("id") int id,
+                                           @RequestBody HashMap<String, Integer> emails){
         productionService.addAuthorsImplicatedInPublication(id,emails);
     }
-
-//
-//    @GetMapping(value = "/communications/{id}")
-//    public Production getCommunication(@PathVariable("id") int id){
-//        return productionService.findProductionByIdProduction(id);
-//    }
-//    @GetMapping(value = "/communications")
-//    public List<Communication> getAllCommunication(){
-//        return communicationService.findAllCommunication();
-//    }
+    @DeleteMapping(value = "/deleteProduction/{id}")
+    public Production deleteProduction(@PathVariable("id") int id){
+        return productionService.deleteProduction(id);
+    }
 }
