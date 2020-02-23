@@ -912,7 +912,7 @@
     <property name="SearchEverywhereHistoryKey" value="update&#9;ACTION&#9;WelcomeScreen.Update&#10;upda&#9;ACTION&#9;Vcs.UpdateProject" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582306413261" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582456681877" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -1188,7 +1188,7 @@
       <workItem from="1582109937155" duration="171000" />
       <workItem from="1582110319395" duration="6689000" />
       <workItem from="1582190961705" duration="2278000" />
-      <workItem from="1582277078015" duration="12087000" />
+      <workItem from="1582277078015" duration="12671000" />
     </task>
     <task id="LOCAL-00001" summary="ajout du fichier conf structure">
       <created>1580610596232</created>
@@ -1233,7 +1233,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="631070000" />
+    <option name="totallyTimeSpent" value="631654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="7" />
