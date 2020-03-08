@@ -11,4 +11,5 @@ import java.util.List;
 public interface ProductionRepository extends JpaRepository<Production, Integer> {
     Production findProductionByIdProduction(int id);
     List<Production> findProductionsByTypeProductionLibelecourt(String lc);
+    List<Production> findProductionsByTypeProductionSoustype(String st);
 }

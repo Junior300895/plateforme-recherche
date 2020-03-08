@@ -1,9 +1,12 @@
 package sn.codeart.msa.service;
 
 import org.junit.jupiter.api.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import sn.codeart.msa.model.Production;
+import sn.codeart.msa.service.impl.ProductionServiceImpl;
 import sn.codeart.msa.util.Constante;
 
 import java.util.Date;
@@ -20,6 +23,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 class ProductionServiceTest {
     @Autowired
     private ProductionService productionService;
+    private final Logger log = LoggerFactory.getLogger(ProductionServiceImpl.class);
 
     private static Production production1;
     private static Production production2;
@@ -82,7 +86,7 @@ class ProductionServiceTest {
         production3.setLangue("Français");
         production3.setDatedebutcommunication(new Date());
         production3.setDatefincommunication(new Date());
-        production3 = productionService.saveProduction(production3, Constante.TP2,
+        production3 = productionService.saveProduction(production3, Constante.TP5,
                 "juniorndoye95@gmail.com","Deep Learning");
         assertNotNull(production3);
 
@@ -135,11 +139,17 @@ class ProductionServiceTest {
     void findChercheurProductionsByProductionOrderByRangChercheur() {
         fail("test non implémenté");
     }
+
     @Order(3)
     @Test
-    void findProductionsByTypeProductionLibelecourt() {
+    void findProductionsByTypeProductionSoustype() {
         List<Production> productions = productionService.
-                findProductionsByTypeProductionLibelecourt(Constante.TP1);
+                findProductionsByTypeProductionSoustype(Constante.STP1);
+
+        for(Production production : productions){
+            System.out.println("prod 4:"+ production.getLibelelong());
+        }
+        // System.out.println("prod 4:"+ productions);
         assertNotNull(productions);
     }
 

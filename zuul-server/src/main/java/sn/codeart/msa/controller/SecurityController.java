@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import sn.codeart.msa.dao.AppUserRepository;
 import sn.codeart.msa.model.AppUser;
-import sn.codeart.msa.service.AccountService;
 
 import javax.servlet.http.HttpServletRequest;
 import java.security.Principal;
@@ -14,8 +13,8 @@ import java.util.List;
 //@CrossOrigin
 @RestController
 public class SecurityController {
-    @Autowired
-    private AccountService accountService;
+   // @Autowired
+    //private AccountService accountService;
     @Autowired
     private AppUserRepository appUserRepository;
 
@@ -38,10 +37,10 @@ public class SecurityController {
                 .decode(authToken)).split(":")[0];
     }
 
-    @PostMapping(value = "/saveUser/{role}")
-    public AppUser saveUser(@RequestBody AppUser appUser,@PathVariable("role") List<String> roles){
-        return accountService.saveUser(appUser, roles);
-    }
+//    @PostMapping(value = "/saveUser/{role}")
+//    public AppUser saveUser(@RequestBody AppUser appUser,@PathVariable("role") List<String> roles){
+//        return accountService.saveUser(appUser, roles);
+//    }
     @GetMapping(value = "/appUsers/users")
     public List<AppUser> findAllUser(){
         return appUserRepository.findAll();
@@ -50,8 +49,8 @@ public class SecurityController {
     public AppUser findAppUserByMail(@PathVariable("email") String email){
         return appUserRepository.findAppUserByMail(email);
     }
-    @DeleteMapping(value = "/deleteAppUser/{email}")
-    public AppUser deleteAppUser(@PathVariable("email") String email){
-        return accountService.deleteAppUser(email);
-    }
+//    @DeleteMapping(value = "/deleteAppUser/{email}")
+//    public AppUser deleteAppUser(@PathVariable("email") String email){
+//        return accountService.deleteAppUser(email);
+//    }
 }

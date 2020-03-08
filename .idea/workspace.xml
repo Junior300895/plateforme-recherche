@@ -5,95 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0133d2ce-f908-413a-b07f-530fa3246a0c" name="Default Changelist" comment="ajout du fichier conf structure">
-      <change afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/beans/StructureBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/beans/UniteRechercheBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/TestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Chercheur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Thematique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/MicroserviceStructureApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/controller/StructureController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/dao/ResponsableRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/dao/StructureRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/dao/TypeUniteRechercheRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/dao/UniteRechercheRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/model/Chercheur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/model/Responsable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/model/Structure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/model/TypeUniteRecherche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/model/UniteRecherche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/service/ResponsableService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/service/StructureService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/service/TypeUniteRechercheSevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/service/UniteRechercheService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/service/impl/ResponsableServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/service/impl/StructureServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/service/impl/TypeUniteRechercheServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/service/impl/UniteRechercheServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/util/Constante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/test/java/sn/codeart/msa/service/StructureServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/test/java/sn/codeart/msa/service/TestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/test/java/sn/codeart/msa/service/TypeUniteRechercheServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-structure/src/test/java/sn/codeart/msa/service/UniteRechercheServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/KeyCloakSpringSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-ui/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-structure/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-ui/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-structure/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-ui/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-structure/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-ui/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-structure/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-ui/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-structure/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-ui/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-structure/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-structure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-ui/src/main/java/sn/codeart/msa/ClientUIApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-ui/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-ui/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-structure/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-ui/src/test/java/sn/codeart/msa/ClientUIApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-structure/src/test/java/sn/codeart/msa/MicroserviceStructureApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/myConfig" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/myConfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/service/impl/ServiceAppeloffreImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/service/impl/ServiceAppeloffreImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/beans/ThematiqueBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/controller/AppeloffreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/controller/AppeloffreController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/controller/ChercheurController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/controller/ChercheurController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/ChercheurRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/ChercheurRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/GradeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/GradeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/StatutRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/StatutRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/events/AppeloffreThematiqueKafkaListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/events/AppeloffreThematiqueKafkaListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Chercheur.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Chercheur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/ChercheurDiplome.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/ChercheurDiplome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Diplome.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Diplome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Fonction.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Fonction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Grade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Statut.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Statut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Thematique.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Thematique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/proxies/MicroserviceInfoProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/proxies/MicroserviceStructureProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/service/ServiceChercheur.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/service/ServiceChercheur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/service/impl/ServiceChercheurImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/service/impl/ServiceChercheurImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/YMicroserviceChercheurApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/ChercheurApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/ZChercheurDiplomeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/ChercheurDiplomeTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/MicroservicePubComApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/MicroservicePubComApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/controller/ProductionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/controller/ProductionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/ChercheurProductionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/ChercheurProductionRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/ProductionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/ProductionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/ChercheurProduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/ChercheurProduction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Production.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Production.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/SousTypeProduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/SousTypeProduction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/SousTypeProductionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/TypeProductionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/TypeProductionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/SousTypeProduction.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/TypeProduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/TypeProduction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/ProductionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/ProductionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/SousTypeProductionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/TypeProductionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/TypeProductionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/impl/ProductionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/impl/ProductionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/impl/SousTypeProductionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/impl/TypeProductionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/impl/TypeProductionServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/util/Constante.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/util/Constante.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-pub-com/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/MicroserviceChercheurProductionTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/service/ProductionServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/service/ProductionServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/service/SousTypeProductionServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/service/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/service/TestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/service/TypeProductionServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/service/TypeProductionServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/controller/StructureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/controller/StructureController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-structure/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-structure/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/ZuulServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/ZuulServerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/controller/SecurityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/controller/SecurityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/JWTAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/JWTAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/JWTAuthorizationFiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/JWTAuthorizationFiler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/SecurityConfig1.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/SecurityConfig1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/UserDetailsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/service/AccountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/service/impl/AccountServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/src/test/java/sn/codeart/msa/ZuulServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/test/java/sn/codeart/msa/ZuulServerApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/microservice-Info/target/" />
     <ignored path="$PROJECT_DIR$/microservice-chercheur/target/" />
@@ -144,38 +90,38 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="4" />
-          <entry key="java" value="1089" />
-          <entry key="properties" value="198" />
-          <entry key="xml" value="49" />
+          <entry key="class" value="7" />
+          <entry key="java" value="1152" />
+          <entry key="properties" value="206" />
+          <entry key="xml" value="52" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="1089" />
-          <entry key="Properties" value="198" />
-          <entry key="XML" value="49" />
+          <entry key="CLASS" value="7" />
+          <entry key="JAVA" value="1152" />
+          <entry key="Properties" value="206" />
+          <entry key="XML" value="52" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="335" />
-          <entry key="java" value="25419" />
-          <entry key="properties" value="1942" />
+          <entry key="java" value="26497" />
+          <entry key="properties" value="2131" />
           <entry key="txt" value="32" />
-          <entry key="xml" value="73" />
+          <entry key="xml" value="110" />
           <entry key="yml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="25419" />
+          <entry key="JAVA" value="26497" />
           <entry key="PLAIN_TEXT" value="367" />
-          <entry key="Properties" value="1942" />
-          <entry key="XML" value="73" />
+          <entry key="Properties" value="2131" />
+          <entry key="XML" value="110" />
           <entry key="YAML" value="11" />
         </counts>
       </usages-collector>
@@ -184,89 +130,61 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Thematique.java">
+        <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/controller/ProductionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+              <folding>
+                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/ProductionRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/impl/ProductionServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/TypeProductionRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272">
-              <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
-              <folding>
-                <element signature="e#5891#5892#0" expanded="true" />
-                <element signature="e#5944#5945#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/JWTAuthenticationFilter.java">
+        <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/TypeProductionService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-224">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="119">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/JWTAuthorizationFiler.java">
+        <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/impl/TypeProductionServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="237">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/SecurityConfig1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/SecurityParams.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/service/ProductionServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="119" column="35" lean-forward="true" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/controller/ProductionController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+            <state relative-caret-position="323">
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -274,8 +192,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/ProductionService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="153">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/impl/ProductionServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="36" column="47" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/TypeProduction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Production.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -309,56 +254,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/beans/Structure.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/beans/UniteRecherche.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/beans/UniteRechercheBean.java" />
-        <option value="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/service/StructureService.java" />
-        <option value="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/service/impl/StructureServiceImpl.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/proxies/MicroserviceStructureProxy.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Diplome.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Statut.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/ChercheurApplicationTests.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Grade.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Fonction.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/model/Chercheur.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/dao/AppUserRepository.java" />
-        <option value="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/service/AccountService.java" />
-        <option value="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/controller/SecurityController.java" />
-        <option value="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/SecurityConfig1.java" />
-        <option value="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/service/impl/AccountServiceImpl.java" />
-        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/ProductionService.java" />
-        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/controller/ProductionController.java" />
-        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/MicroservicePubComApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/ProductionRepository.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/service/ServiceChercheur.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/GradeRepository.java" />
         <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/StatutRepository.java" />
         <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/service/impl/ServiceChercheurImpl.java" />
         <option value="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/model/Structure.java" />
         <option value="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/dao/UniteRechercheRepository.java" />
         <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/ChercheurRepository.java" />
         <option value="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/service/UniteRechercheService.java" />
-        <option value="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/controller/StructureController.java" />
         <option value="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/model/UniteRecherche.java" />
         <option value="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/service/impl/ServiceAppeloffreImpl.java" />
-        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/controller/ChercheurController.java" />
         <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/events/AppeloffreThematiqueKafkaListener.java" />
-        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/TypeProduction.java" />
-        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/util/Constante.java" />
         <option value="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/service/impl/UniteRechercheServiceImpl.java" />
         <option value="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/model/Chercheur.java" />
         <option value="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/model/Responsable.java" />
         <option value="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java" />
-        <option value="$PROJECT_DIR$/microservice-structure/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/microservice-structure/src/test/java/sn/codeart/msa/service/UniteRechercheServiceTest.java" />
         <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Chercheur.java" />
         <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java" />
         <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Production.java" />
         <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/ChercheurProduction.java" />
         <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Thematique.java" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/SecurityConfig1.java" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/JWTAuthorizationFiler.java" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/JWTAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/service/impl/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/controller/SecurityController.java" />
+        <option value="$PROJECT_DIR$/zuul-server/src/test/java/sn/codeart/msa/ZuulServerApplicationTests.java" />
+        <option value="$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/controller/AppeloffreController.java" />
+        <option value="$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/controller/ChercheurController.java" />
+        <option value="$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/controller/StructureController.java" />
+        <option value="$PROJECT_DIR$/microservice-structure/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/SousTypeProduction.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/service/SousTypeProductionServiceTest.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/service/TestSuite.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/util/Constante.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/service/TypeProductionServiceTest.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/ProductionRepository.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/service/ProductionServiceTest.java" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/KeyCloakSecurityConfigurer.java" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/KeyCloakSpringSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/ZuulServerApplication.java" />
+        <option value="$PROJECT_DIR$/zuul-server/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/ProductionService.java" />
         <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/impl/ProductionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/TypeProduction.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/impl/TypeProductionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/TypeProductionService.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/controller/ProductionController.java" />
+        <option value="$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/TypeProductionRepository.java" />
         <option value="$PROJECT_DIR$/microservice-pub-com/src/main/resources/bootstrap.properties" />
       </list>
     </option>
@@ -369,11 +314,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1944" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -386,85 +331,6 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-appeloffre" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-appeloffre" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-appeloffre" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-appeloffre" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-appeloffre" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="msa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-appeloffre" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="msa" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-appeloffre" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="msa" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-appeloffre" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="msa" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-appeloffre" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-appeloffre" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-appeloffre" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="msa" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice-chercheur" type="462c0819:PsiDirectoryNode" />
@@ -589,45 +455,6 @@
             </path>
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-notification-mail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-notification-mail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-notification-mail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-notification-mail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-notification-mail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="msa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-notification-mail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="msa" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice-pub-com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -681,6 +508,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="msa" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-pub-com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="msa" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -710,6 +546,15 @@
               <item name="msa" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-pub-com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="msa" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
@@ -889,7 +734,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="msa" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="msa" type="462c0819:PsiDirectoryNode" />
               <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="msa" type="462c0819:PsiDirectoryNode" />
+              <item name="ZuulServerApplication.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
@@ -912,7 +775,7 @@
     <property name="SearchEverywhereHistoryKey" value="update&#9;ACTION&#9;WelcomeScreen.Update&#10;upda&#9;ACTION&#9;Vcs.UpdateProject" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582456681877" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583669211056" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -1188,7 +1051,7 @@
       <workItem from="1582109937155" duration="171000" />
       <workItem from="1582110319395" duration="6689000" />
       <workItem from="1582190961705" duration="2278000" />
-      <workItem from="1582277078015" duration="12671000" />
+      <workItem from="1582277078015" duration="51850000" />
     </task>
     <task id="LOCAL-00001" summary="ajout du fichier conf structure">
       <created>1580610596232</created>
@@ -1201,45 +1064,44 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSuite_(4) - 2020.02.06 at 15h 43m 25s.xml">
-      <configuration name="TestSuite (4)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSuite_(3) - 2020.02.06 at 15h 50m 52s.xml">
-      <configuration name="TestSuite (3)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSuite_(5) - 2020.02.06 at 15h 59m 09s.xml">
-      <configuration name="TestSuite (5)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSuite_(5) - 2020.02.06 at 16h 09m 11s.xml">
-      <configuration name="TestSuite (5)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSuite - 2020.02.06 at 19h 05m 51s.xml">
-      <configuration name="TestSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSuite_(1) - 2020.02.21 at 12h 34m 56s.xml">
-      <configuration name="TestSuite (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSuite_(2) - 2020.02.21 at 15h 35m 48s.xml">
+    <history-entry file="TestSuite_(2) - 2020.02.29 at 19h 27m 54s.xml">
       <configuration name="TestSuite (2)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSuite_(2) - 2020.02.21 at 15h 42m 16s.xml">
+    <history-entry file="TestSuite_(2) - 2020.02.29 at 19h 30m 16s.xml">
       <configuration name="TestSuite (2)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSuite_(2) - 2020.02.21 at 15h 53m 43s.xml">
+    <history-entry file="TestSuite_(2) - 2020.02.29 at 23h 31m 10s.xml">
       <configuration name="TestSuite (2)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSuite_(2) - 2020.02.21 at 15h 56m 48s.xml">
+    <history-entry file="TestSuite_(2) - 2020.02.29 at 23h 34m 14s.xml">
+      <configuration name="TestSuite (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite_(2) - 2020.02.29 at 23h 38m 02s.xml">
+      <configuration name="TestSuite (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite_(2) - 2020.02.29 at 23h 41m 46s.xml">
+      <configuration name="TestSuite (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite_(2) - 2020.02.29 at 23h 42m 51s.xml">
+      <configuration name="TestSuite (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite_(2) - 2020.02.29 at 23h 44m 07s.xml">
+      <configuration name="TestSuite (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite_(2) - 2020.02.29 at 23h 46m 13s.xml">
+      <configuration name="TestSuite (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite_(2) - 2020.02.29 at 23h 47m 11s.xml">
       <configuration name="TestSuite (2)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="631654000" />
+    <option name="totallyTimeSpent" value="670833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="7" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49712643" visible="true" weight="0.29554656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49712643" visible="true" weight="0.26234818" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1249,7 +1111,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6188811" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41783217" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.71153843" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47027972" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1257,11 +1119,11 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32867134" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32867134" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50306123" side_tool="true" weight="0.547504" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.38636363" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.30917874" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32867134" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49693877" weight="0.5804196" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49693877" weight="0.40034965" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1273,41 +1135,6 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49712643" visible="true" weight="0.28582996" />
-      <window_info id="Designer" order="1" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Structure" order="4" sideWeight="0.50287354" side_tool="true" weight="0.31417003" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.6188811" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41783217" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47027972" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32867134" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50306123" side_tool="true" weight="0.547504" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.38636363" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32867134" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49693877" weight="0.4020979" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1372,198 +1199,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/model/TypeUniteRecherche.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/beans/ThematiqueBean.java" />
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/dao/ChercheurRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/model/UniteRecherche.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/controller/StructureController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/service/UniteRechercheService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="100" selection-start-line="9" selection-start-column="100" selection-end-line="9" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/service/ServiceAppeloffre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/controller/AppeloffreController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/controller/ChercheurController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="65" column="3" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/service/impl/ServiceChercheurImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/MicroserviceAppeloffrepplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/model/AppelOffreThematiqueId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/model/AppeloffreThematique.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/service/impl/ServiceAppeloffreImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/proxies/MicroserviceChercheurProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/beans/DiffusionBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/ChercheurApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/test/java/sn/codeart/msa/ThematiqueTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/MicroserviceChercheurApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/events/NotificationKafkaListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/test/java/sn/codeart/msa/ServiceAppeloffreApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="74" column="17" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/events/AppeloffreThematiqueKafkaListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/TypeProduction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/SousTypeProduction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/util/Constante.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/service/impl/ResponsableServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/myConfig/zuul-server.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="58" lean-forward="true" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/beans/ChercheurBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -1578,24 +1213,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-structure/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/service/impl/UniteRechercheServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="38" column="53" lean-forward="true" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-structure/src/test/java/sn/codeart/msa/service/UniteRechercheServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1662,33 +1283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/service/SousTypeProductionServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/service/TypeProductionServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Production.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="31" column="15" lean-forward="true" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-          <folding>
-            <element signature="e#4673#4674#0" expanded="true" />
-            <element signature="e#4706#4707#0" expanded="true" />
-            <element signature="e#4762#4763#0" expanded="true" />
-            <element signature="e#4806#4807#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Thematique.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1699,59 +1293,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/service/ProductionServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="119" column="35" lean-forward="true" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/controller/ProductionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/ProductionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/impl/ProductionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
-          <folding>
-            <element signature="e#5891#5892#0" expanded="true" />
-            <element signature="e#5944#5945#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/JWTAuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/JWTAuthorizationFiler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/SecurityParams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1759,10 +1300,317 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/SecurityConfig1.java">
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/service/impl/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="30" column="9" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/keycloak/keycloak-spring-security-adapter/9.0.0/keycloak-spring-security-adapter-9.0.0.jar!/org/keycloak/adapters/springsecurity/authentication/KeycloakAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/keycloak/keycloak-spring-security-adapter/9.0.0/keycloak-spring-security-adapter-9.0.0.jar!/org/keycloak/adapters/springsecurity/config/KeycloakWebSecurityConfigurerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+          <caret line="60" column="45" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="17" column="10" lean-forward="true" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/test/java/sn/codeart/msa/ZuulServerApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-appeloffre/src/main/java/sn/codeart/msa/controller/AppeloffreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-notification-mail/src/main/java/sn/codeart/msa/controller/RegistrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/controller/StructureController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/controller/SecurityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-structure/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-structure/src/test/java/sn/codeart/msa/service/TestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-structure/src/test/java/sn/codeart/msa/service/StructureServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-structure/src/test/java/sn/codeart/msa/service/TypeUniteRechercheServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-structure/src/test/java/sn/codeart/msa/service/UniteRechercheServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-structure/src/main/java/sn/codeart/msa/MicroserviceStructureApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/SousTypeProductionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/SousTypeProduction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="49" />
+          <folding>
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/service/SousTypeProductionServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/util/Constante.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/service/TestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/service/TypeProductionServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/test/java/sn/codeart/msa/service/ProductionServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="152" column="35" selection-start-line="152" selection-start-column="35" selection-end-line="152" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/KeyCloakSpringSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="40" column="18" selection-start-column="2" selection-end-line="49" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/JWTAuthorizationFiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="31" column="88" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/JWTAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/security/SecurityConfig1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/sn/codeart/msa/ZuulServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-788">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1892#1893#0" expanded="true" />
+            <element signature="e#1953#1954#0" expanded="true" />
+            <element signature="e#2573#2574#0" expanded="true" />
+            <element signature="e#2612#2613#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-chercheur/src/main/java/sn/codeart/msa/controller/ChercheurController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="119" column="29" selection-start-line="119" selection-start-column="29" selection-end-line="119" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/Production.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/model/TypeProduction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/ProductionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/impl/TypeProductionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/TypeProductionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/service/impl/ProductionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/ProductionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/dao/TypeProductionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/java/sn/codeart/msa/controller/ProductionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+          <folding>
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-pub-com/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>

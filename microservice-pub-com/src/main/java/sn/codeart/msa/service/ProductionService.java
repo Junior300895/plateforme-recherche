@@ -18,6 +18,6 @@ public interface ProductionService {
     List<Production> findAllProductions();
     Production findProductionByIdProduction(int id);
     List<ChercheurProduction> findChercheurProductionsByProductionOrderByRangChercheur(int idProd);
-    List<Production> findProductionsByTypeProductionLibelecourt(String lc_tp);
+    List<Production> findProductionsByTypeProductionSoustype(String stp);
     Production deleteProduction(int id);
 }

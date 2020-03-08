@@ -14,14 +14,11 @@ public class TypeProduction {
     @Column(unique = true)
     private String libelelong;
 
+    private String soustype;
+
     @JsonIgnore
     @OneToMany(mappedBy = "typeProduction", fetch = FetchType.EAGER)
     private List<Production> productions;
-
-    //@JsonIgnore
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "Id_SousTypeProd")
-    private SousTypeProduction sousTypeProduction;
 
     public TypeProduction() {
     }
@@ -58,11 +55,11 @@ public class TypeProduction {
         this.productions = productions;
     }
 
-    public SousTypeProduction getSousTypeProduction() {
-        return sousTypeProduction;
+    public String getSoustype() {
+        return soustype;
     }
 
-    public void setSousTypeProduction(SousTypeProduction sousTypeProduction) {
-        this.sousTypeProduction = sousTypeProduction;
+    public void setSoustype(String soustype) {
+        this.soustype = soustype;
     }
 }

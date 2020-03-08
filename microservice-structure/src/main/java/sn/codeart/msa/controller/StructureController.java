@@ -13,7 +13,7 @@ import sn.codeart.msa.service.StructureService;
 import sn.codeart.msa.service.UniteRechercheService;
 
 import java.util.List;
-
+@CrossOrigin("*")
 @RestController
 public class StructureController {
 

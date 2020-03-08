@@ -98,8 +98,8 @@ public class ProductionServiceImpl implements ProductionService {
     }
 
     @Override
-    public List<Production> findProductionsByTypeProductionLibelecourt(String lc_tp) {
-        return productionRepository.findProductionsByTypeProductionLibelecourt(lc_tp);
+    public List<Production> findProductionsByTypeProductionSoustype(String stp) {
+        return productionRepository.findProductionsByTypeProductionSoustype(stp);
     }
 
     @Override

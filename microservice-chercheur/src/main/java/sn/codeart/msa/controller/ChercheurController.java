@@ -10,7 +10,7 @@ import sn.codeart.msa.model.*;
 import sn.codeart.msa.service.ServiceChercheur;
 
 import java.util.List;
-
+@CrossOrigin("*")
 @RestController
 public class ChercheurController {
 

@@ -6,7 +6,6 @@ import org.junit.runner.RunWith;
 
 @RunWith(JUnitPlatform.class)
 @SelectClasses({
-        SousTypeProductionServiceTest.class,
         TypeProductionServiceTest.class,
         ProductionServiceTest.class
         })
