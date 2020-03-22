@@ -8,7 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import sn.codeart.msa.service.FileStorageProperties;
 
 @EnableFeignClients("sn.codeart.msa")
-@EnableDiscoveryClient(autoRegister = false)
+@EnableDiscoveryClient
 @SpringBootApplication
 @EnableConfigurationProperties({
         FileStorageProperties.class

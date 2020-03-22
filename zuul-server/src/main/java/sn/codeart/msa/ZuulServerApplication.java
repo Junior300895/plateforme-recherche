@@ -82,7 +82,7 @@ class KeyCloakSpringSecurityConfig extends KeycloakWebSecurityConfigurerAdapter 
         http.authorizeRequests().antMatchers(
                 "/login/**", "/register/**", "/appUsers/{email}",
                 "/api/ms-ch/**", "/api/ms-ao/**", "/api/ms-pubcom/**",
-                "/api/ms-struct/**").permitAll();
+                "/api/ms-struct/**", "/api/ms-noti/**").permitAll();
         //http.authorizeRequests().antMatchers("/api/ms-ao/appeloffres").hasAuthority("ADMIN");
         http.authorizeRequests().anyRequest().authenticated();
     }

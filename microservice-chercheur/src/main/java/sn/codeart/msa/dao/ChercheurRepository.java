@@ -12,5 +12,7 @@ public interface ChercheurRepository extends JpaRepository<Chercheur, Integer> {
     Chercheur findChercheurByIdChercheur(int id);
     Chercheur findChercheurByEmail(String email);
     List<Chercheur> findChercheursByIdUniteRecherche(int id);
-    List<Chercheur> findChercheursByThematiques(Thematique thematique);
+    List<Chercheur> findChercheursByThematiquesAnd(Thematique thematique);
+    List<Chercheur> findChercheursByGradeAndFonction(Thematique thematique);
+
 }

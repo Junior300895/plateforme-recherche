@@ -27,6 +27,7 @@ public class Production {
     private Date datemiseenligne;
     private Date datedebutcommunication;
     private Date datefincommunication;
+    private String fichier;
 
     @Embedded
     private Thematique thematique;
@@ -201,5 +202,13 @@ public class Production {
 
     public void setThematique(Thematique thematique) {
         this.thematique = thematique;
+    }
+
+    public String getFichier() {
+        return fichier;
+    }
+
+    public void setFichier(String fichier) {
+        this.fichier = fichier;
     }
 }

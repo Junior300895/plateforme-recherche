@@ -37,7 +37,7 @@ public class FileStorageService {
         long date = System.currentTimeMillis();
         // Normalize file name
         String fileName = StringUtils.cleanPath(file.getOriginalFilename());
-        fileName = date+fileName;
+        //fileName = date+fileName;
 
         try {
             // Check if the file's name contains invalid characters
