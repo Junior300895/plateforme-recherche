@@ -19,7 +19,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@CrossOrigin("*")
 @RestController
 public class FileController {
     private static final Logger logger = LoggerFactory.getLogger(FileController.class);

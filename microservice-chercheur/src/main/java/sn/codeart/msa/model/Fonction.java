@@ -12,10 +12,10 @@ public class Fonction {
     private int idFonction;
     private String libeleCourt;
     private String libeleLong;
-
+    
     @JsonIgnore
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "fonction")
-    private List<Chercheur> chercheurs;
+    private List<ChercheurFonction> chercheurFonctions;
 
     public Fonction() {
     }
@@ -44,21 +44,19 @@ public class Fonction {
         this.libeleLong = libeleLong;
     }
 
-    public List<Chercheur> getChercheurs() {
-        return chercheurs;
-    }
 
-    public void setChercheurs(List<Chercheur> chercheurs) {
-        this.chercheurs = chercheurs;
-    }
+    public List<ChercheurFonction> getChercheurFonctions() {
+		return chercheurFonctions;
+	}
 
-    @Override
-    public String toString() {
-        return "Fonction{" +
-                "idFonction=" + idFonction +
-                ", libeleCourt='" + libeleCourt + '\'' +
-                ", libeleLong='" + libeleLong + '\'' +
-                //", chercheurs=" + chercheurs +
-                '}';
-    }
+	public void setChercheurFonctions(List<ChercheurFonction> chercheurFonctions) {
+		this.chercheurFonctions = chercheurFonctions;
+	}
+
+	@Override
+	public String toString() {
+		return "Fonction [idFonction=" + idFonction + ", libeleCourt=" + libeleCourt + ", libeleLong=" + libeleLong
+				+ ", chercheurFonctions=" + chercheurFonctions + "]";
+	}
+
 }

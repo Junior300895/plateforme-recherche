@@ -38,7 +38,7 @@ public class Production {
     private TypeProduction typeProduction;
 
     @JsonIgnore
-    @OneToMany(mappedBy = "production", fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "production", fetch = FetchType.EAGER, cascade = CascadeType.REMOVE)
     private List<ChercheurProduction> chercheurProductions;
 
     public Production() {

@@ -13,10 +13,9 @@ import java.util.List;
 @Entity
 @Data @AllArgsConstructor @NoArgsConstructor @ToString
 public class AppUser {
-    @Id
+	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(unique = true)
     private String mail;
     private String username;
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)

@@ -36,21 +36,21 @@ class UniteRechercheServiceTest {
         uniteRecherche1.setAdresse("UCAD");
         uniteRecherche1.setEmail("abc@ucad.sn");
         uniteRecherche1 = uniteRechercheService.saveUniteRecherche(uniteRecherche1,
-                Constante.T_U_RECHERCHE4, Constante.STRUCTURE1);
+                Constante.T_U_RECHERCHE4, Constante.STRUCTURE1_CST);
         assertNotNull(uniteRecherche1, "save unite de recherhe 1");
 
         uniteRecherche2.setLibeleCourt(Constante.UNITE_RECHERCHE2);
         uniteRecherche2.setAdresse("UCAD");
         uniteRecherche2.setEmail("efg@ucad.sn");
         uniteRecherche2 = uniteRechercheService.saveUniteRecherche(uniteRecherche2,
-                Constante.T_U_RECHERCHE3, Constante.STRUCTURE2);
+                Constante.T_U_RECHERCHE3, Constante.STRUCTURE2_CST);
         assertNotNull(uniteRecherche2, "save unite de recherhe 2");
 
         uniteRecherche3.setLibeleCourt(Constante.UNITE_RECHERCHE3);
         uniteRecherche3.setAdresse("UCAD");
         uniteRecherche3.setEmail("ijk@ucad.sn");
         uniteRecherche3 = uniteRechercheService.saveUniteRecherche(uniteRecherche3,
-                Constante.T_U_RECHERCHE3, Constante.STRUCTURE2);
+                Constante.T_U_RECHERCHE3, Constante.STRUCTURE3_CST);
         assertNotNull(uniteRecherche3, "save unite de recherhe 3");
     }
 }

@@ -12,6 +12,7 @@ import sn.codeart.msa.model.*;
 import sn.codeart.msa.proxies.MicroserviceStructureProxy;
 import sn.codeart.msa.service.ServiceChercheur;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -35,19 +36,58 @@ public class ServiceChercheurImpl implements ServiceChercheur {
 
     @Override
     public Chercheur saveCherheur(
-            Chercheur chercheur, String lcThematique, String lcFonction,
+            Chercheur chercheur, List<String> lcThematiques,
             String lcGrade, String lcStatut, String lcStructure, String lcUniterecherche) {
-        Fonction fonction = fonctionRepository.findFonctionByLibeleCourt(lcFonction);
+    	
+    	List<Thematique> thematiques = new ArrayList<Thematique>();
+    	lcThematiques.forEach(lc->{
+    		Thematique thematique = thematiqueRepository.findThematiqueByLibeleCourt(lc);
+    		thematiques.add(thematique);
+    	});
+    	
+        //Fonction fonction = fonctionRepository.findFonctionByLibeleCourt(lcFonction);
         Grade grade = gradeRepository.findGradeByLibeleCourt(lcGrade);
         Statut statut = statutRepository.findStatutByLibeleCourt(lcStatut);
-        Thematique thematique = thematiqueRepository.findThematiqueByLibeleCourt(lcThematique);
         StructureBean structureBean = structureProxy.findStructureByLc(lcStructure);
         UniteRechercheBean uniteRechercheBean = structureProxy.findUniteByLc(lcUniterecherche);
 
-        chercheur.setFonction(fonction);
+        //chercheur.setFonction(fonction);
         chercheur.setGrade(grade);
         chercheur.setStatut(statut);
-        chercheur.setThematiques(Arrays.asList(thematique));
+        chercheur.setThematiques(thematiques);
+        chercheur.setIdStructure(structureBean.getIdStructure());
+        chercheur.setIdUniteRecherche(uniteRechercheBean.getIdUnite());
+
+        return chercheurRepository.save(chercheur);
+    }
+    public Chercheur findChercheurByID(int id) {
+    	return chercheurRepository.findChercheurByIdChercheur(id);
+    }
+
+    @Override
+    public Chercheur updateCherheur(
+            Chercheur chercheur, List<String> lcThematiques,
+            String lcGrade, String lcStatut, String lcStructure, String lcUniterecherche) {
+    	
+    	List<Thematique> thematiques = new ArrayList<Thematique>();
+    	lcThematiques.forEach(lc->{
+    		Thematique thematique = thematiqueRepository.findThematiqueByLibeleCourt(lc);
+    		thematiques.add(thematique);
+    	});
+    	
+        //Fonction fonction = fonctionRepository.findFonctionByLibeleCourt(lcFonction);
+        Grade grade = gradeRepository.findGradeByLibeleCourt(lcGrade);
+        Statut statut = statutRepository.findStatutByLibeleCourt(lcStatut);
+        StructureBean structureBean = structureProxy.findStructureByLc(lcStructure);
+        UniteRechercheBean uniteRechercheBean = structureProxy.findUniteByLc(lcUniterecherche);
+
+        Chercheur chercheurtest = chercheurRepository.findChercheurByEmail(chercheur.getEmail());
+        chercheur.setIdChercheur(chercheurtest.getIdChercheur());
+        
+        //chercheur.setFonction(fonction);
+        chercheur.setGrade(grade);
+        chercheur.setStatut(statut);
+        chercheur.setThematiques(thematiques);
         chercheur.setIdStructure(structureBean.getIdStructure());
         chercheur.setIdUniteRecherche(uniteRechercheBean.getIdUnite());
 

@@ -7,12 +7,12 @@ import sn.codeart.msa.model.Production;
 import sn.codeart.msa.model.TypeProduction;
 import sn.codeart.msa.service.ProductionService;
 import sn.codeart.msa.service.TypeProductionService;
+import sn.codeart.msa.util.PostDTO;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@CrossOrigin("*")
 @RestController
 public class ProductionController {
 
@@ -50,15 +50,23 @@ public class ProductionController {
                                       @PathVariable("thematique") String thematique){
         return productionService.saveProduction(production,typePub,emailChercheur,thematique);
     }
-//    @PostMapping(value = "/saveProductionWithAuthors/{typePub}/{thematique}")
+//    @PostMapping(value = "/saveProductionWithAuthors/{typeProd}/{thematique}")
 //    public Production saveProductionWithAuthors(
 //            @RequestBody Production production,
-//            @RequestBody Map<String, Integer> emailAuthors,
-//            @PathVariable("typePub") String typePub,
+//            @RequestBody HashMap<String, Integer> emailAuthors,
+//            @PathVariable("typeProd") String typeProd,
 //            @PathVariable("thematique") String thematique
 //                                  ){
-//        return productionService.saveProductionWithAuthors(production,typePub,thematique,emailAuthors);
+//        return productionService.saveProductionWithAuthors(production, typeProd, emailAuthors, thematique);
 //    }
+    @PostMapping(value = "/saveProductionWithAuthors/{typeProd}/{thematique}")
+    public Production saveProductionWithAuthors(
+    		@RequestBody PostDTO postDTO,
+    		@PathVariable("typeProd") String typeProd,
+    		@PathVariable("thematique") String thematique
+    		){
+    	return productionService.saveProductionWithAuthors(postDTO.getProduction(), typeProd, postDTO.getEmailsRangs(), thematique);
+    }
     @PostMapping(value = "/addAuthorsImplicatedInPublication/{id}")
     public void saveProductionWithAuthors(@PathVariable("id") int id,
                                            @RequestBody HashMap<String, Integer> emails){
@@ -67,5 +75,9 @@ public class ProductionController {
     @DeleteMapping(value = "/deleteProduction/{id}")
     public Production deleteProduction(@PathVariable("id") int id){
         return productionService.deleteProduction(id);
+    }
+    @GetMapping(value = "/productions/chercheur/{emailChercheur}")
+    public List<Production> findProductionsByChercheurProductionsChercheur(@PathVariable("emailChercheur") String emailChercheur){
+        return productionService.findProductionsByChercheurProductionsChercheur(emailChercheur);
     }
 }

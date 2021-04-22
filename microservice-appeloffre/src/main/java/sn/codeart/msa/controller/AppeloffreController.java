@@ -8,7 +8,7 @@ import sn.codeart.msa.service.ServiceAppeloffre;
 
 import java.util.List;
 
-@CrossOrigin("*")
+//@CrossOrigin("*")
 @RestController
 public class AppeloffreController {
 

@@ -34,15 +34,18 @@ class StructureServiceTest {
 
     @Test
     void saveStructure() {
-        structure1.setLibeleCourt(Constante.STRUCTURE1);
+    	structure1.setLibeleCourt(Constante.STRUCTURE1_CST);
+        structure1.setLibeleLong(Constante.STRUCTURE1);
         structure1 = structureService.saveStructure(structure1);
         assertNotNull(structure1, "save structure 1");
 
-        structure2.setLibeleCourt(Constante.STRUCTURE2);
+        structure2.setLibeleCourt(Constante.STRUCTURE2_CST);
+        structure2.setLibeleLong(Constante.STRUCTURE2);
         structure2 = structureService.saveStructure(structure2);
         assertNotNull(structure2, "save structure 2");
 
-        structure3.setLibeleCourt(Constante.STRUCTURE3);
+        structure3.setLibeleCourt(Constante.STRUCTURE3_CST);
+        structure3.setLibeleLong(Constante.STRUCTURE3);
         structure3 = structureService.saveStructure(structure3);
         assertNotNull(structure3, "save structure 3");
     }

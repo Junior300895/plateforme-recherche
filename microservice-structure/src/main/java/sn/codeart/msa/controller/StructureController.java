@@ -1,8 +1,15 @@
 package sn.codeart.msa.controller;
 
-import com.netflix.discovery.converters.Auto;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
 import sn.codeart.msa.dao.StructureRepository;
 import sn.codeart.msa.dao.TypeUniteRechercheRepository;
 import sn.codeart.msa.dao.UniteRechercheRepository;
@@ -12,8 +19,6 @@ import sn.codeart.msa.model.UniteRecherche;
 import sn.codeart.msa.service.StructureService;
 import sn.codeart.msa.service.UniteRechercheService;
 
-import java.util.List;
-@CrossOrigin("*")
 @RestController
 public class StructureController {
 

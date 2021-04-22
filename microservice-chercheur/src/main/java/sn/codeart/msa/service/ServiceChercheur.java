@@ -1,12 +1,17 @@
 package sn.codeart.msa.service;
 
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 import sn.codeart.msa.model.*;
 
 @Service
 public interface ServiceChercheur {
-    public Chercheur saveCherheur(Chercheur chercheur, String thematique, String fonction,
+    Chercheur saveCherheur(Chercheur chercheur, List<String> lcThematiques,
                                   String grade, String statut, String structure, String uniteRecherche);
+    Chercheur updateCherheur(Chercheur chercheur, List<String> lcThematiques,
+            String grade, String statut, String structure, String uniteRecherche);
+    Chercheur findChercheurByID(int id);
     Chercheur deleteChercheur(String email);
 
     Thematique saveThematique(String libele);

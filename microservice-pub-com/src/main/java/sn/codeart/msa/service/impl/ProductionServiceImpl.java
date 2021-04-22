@@ -56,6 +56,35 @@ public class ProductionServiceImpl implements ProductionService {
         }
        return null;
     }
+	@Override
+	public Production saveProductionWithAuthors(Production production, String typeProd,
+			Map<String, Integer> emailAuthors, String lcThematique) {
+		TypeProduction typeProduction = typeProductionRepository.
+                findTypeProductionByLibelecourt(typeProd);
+        Thematique thematique = microserviceChercheurProxy
+                .findThematiqueByLibeleCourt(lcThematique);
+
+        production.setThematique(thematique);
+        production.setDatemiseenligne(new Date());
+        production.setTypeProduction(typeProduction);
+        Production productionsaved = productionRepository.save(production);
+
+        // Ajout des chercheurs liés à la production
+        if(productionsaved != null){
+	        emailAuthors.forEach((email, rang) -> {
+	            Chercheur chercheur = microserviceChercheurProxy.findChercheurByEmail(email);
+	
+	            ChercheurProduction chercheurProduction = new ChercheurProduction();
+	            chercheurProduction.setProduction(productionsaved);
+	            chercheurProduction.setRangChercheur(rang);
+	            chercheurProduction.setChercheur(chercheur);
+	            chercheurProductionRepository.save(chercheurProduction);
+	        });
+	        return production;
+        }
+        
+       return null;
+	}
 
     @Override
     @Transactional
@@ -67,11 +96,11 @@ public class ProductionServiceImpl implements ProductionService {
 //        if(!list.isEmpty()){
 //            chercheurProductionRepository.deleteChercheurProductionsByProduction(production);
 //        }
-        emailAuthors.forEach((s, integer) -> {
-            Chercheur chercheur = microserviceChercheurProxy.findChercheurByEmail(s);
+        emailAuthors.forEach((email, rang) -> {
+            Chercheur chercheur = microserviceChercheurProxy.findChercheurByEmail(email);
 
             ChercheurProduction chercheurProduction = new ChercheurProduction();
-            chercheurProduction.setRangChercheur(integer);
+            chercheurProduction.setRangChercheur(rang);
             chercheurProduction.setChercheur(chercheur);
             chercheurProduction.setProduction(production);
             chercheurProductionRepository.save(chercheurProduction);
@@ -101,6 +130,7 @@ public class ProductionServiceImpl implements ProductionService {
     public List<Production> findProductionsByTypeProductionSoustype(String stp) {
         return productionRepository.findProductionsByTypeProductionSoustype(stp);
     }
+    
 
     @Override
     public Production deleteProduction(int id) {
@@ -113,4 +143,10 @@ public class ProductionServiceImpl implements ProductionService {
             return production;
         }
     }
+	@Override
+	public List<Production> findProductionsByChercheurProductionsChercheur(String email) {
+//		Chercheur chercheur = microserviceChercheurProxy.findChercheurByEmail(email);
+		return productionRepository.findProductionsByChercheurProductionsChercheurEmail(email);
+	}
+
 }

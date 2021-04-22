@@ -31,10 +31,6 @@ public class Chercheur {
     private int idUniteRecherche;
 
     @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "idFonction", nullable = false)
-    private Fonction fonction;
-
-    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "idGrade", nullable = false)
     private Grade grade;
 
@@ -56,6 +52,10 @@ public class Chercheur {
     @JsonIgnore
     @OneToMany(mappedBy = "chercheur", fetch = FetchType.LAZY)
     private List<ChercheurPublication> chercheurPublications;
+    
+    @JsonIgnore
+    @OneToMany(mappedBy = "chercheur", fetch = FetchType.LAZY)
+    private List<ChercheurFonction> chercheurFonctions;
 
     public Chercheur() {
     }
@@ -188,13 +188,6 @@ public class Chercheur {
         this.boite_postal = boite_postal;
     }
 
-    public Fonction getFonction() {
-        return fonction;
-    }
-
-    public void setFonction(Fonction fonction) {
-        this.fonction = fonction;
-    }
 
     public Grade getGrade() {
         return grade;
@@ -204,7 +197,7 @@ public class Chercheur {
         this.grade = grade;
     }
 
-    public Statut getStatut() {
+	public Statut getStatut() {
         return statut;
     }
 
@@ -227,4 +220,21 @@ public class Chercheur {
     public void setDiplomes(List<ChercheurDiplome> diplomes) {
         this.diplomes = diplomes;
     }
+
+	public List<ChercheurPublication> getChercheurPublications() {
+		return chercheurPublications;
+	}
+
+	public void setChercheurPublications(List<ChercheurPublication> chercheurPublications) {
+		this.chercheurPublications = chercheurPublications;
+	}
+
+	public List<ChercheurFonction> getChercheurFonctions() {
+		return chercheurFonctions;
+	}
+
+	public void setChercheurFonctions(List<ChercheurFonction> chercheurFonctions) {
+		this.chercheurFonctions = chercheurFonctions;
+	}
+    
 }

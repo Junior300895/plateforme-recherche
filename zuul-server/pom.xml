@@ -9,15 +9,15 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>sn.codeart</groupId>
-    <artifactId>msa</artifactId>
+    <artifactId>zuul-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>msa</name>
+    <name>zuul-server</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Hoxton.RC2</spring-cloud.version>
-        <keycloak.version>4.4.0.Final</keycloak.version>
+<!--         <keycloak.version>4.4.0.Final</keycloak.version> -->
     </properties>
 
     <dependencies>
@@ -86,10 +86,10 @@
             <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.keycloak</groupId>
-            <artifactId>keycloak-spring-boot-starter</artifactId>
-        </dependency>
+<!--         <dependency> -->
+<!--             <groupId>org.keycloak</groupId> -->
+<!--             <artifactId>keycloak-spring-boot-starter</artifactId> -->
+<!--         </dependency> -->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -113,13 +113,13 @@
     <dependencyManagement>
         <dependencies>
 
-            <dependency>
-                <groupId>org.keycloak.bom</groupId>
-                <artifactId>keycloak-adapter-bom</artifactId>
-                <version>${keycloak.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
+<!--             <dependency> -->
+<!--                 <groupId>org.keycloak.bom</groupId> -->
+<!--                 <artifactId>keycloak-adapter-bom</artifactId> -->
+<!--                 <version>${keycloak.version}</version> -->
+<!--                 <type>pom</type> -->
+<!--                 <scope>import</scope> -->
+<!--             </dependency> -->
 
             <dependency>
                 <groupId>org.springframework.cloud</groupId>

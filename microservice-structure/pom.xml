@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>sn.codeart</groupId>
-    <artifactId>msa</artifactId>
+    <artifactId>microservice-structure</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>microservice-structure</name>
     <description>Demo project for Spring Boot</description>

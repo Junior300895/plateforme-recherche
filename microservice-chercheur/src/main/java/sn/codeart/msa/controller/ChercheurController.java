@@ -3,6 +3,7 @@ package sn.codeart.msa.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 import sn.codeart.msa.dao.*;
@@ -10,7 +11,7 @@ import sn.codeart.msa.model.*;
 import sn.codeart.msa.service.ServiceChercheur;
 
 import java.util.List;
-@CrossOrigin("*")
+//@CrossOrigin("*")
 @RestController
 public class ChercheurController {
 
@@ -57,11 +58,19 @@ public class ChercheurController {
     }
     @PostMapping(value = "/saveChercheur/{lcThe}/{lcFct}/{lcGra}/{lcSta}/{lcStruct}/{lcUnit}")
     Chercheur saveChercheur(
-            @RequestBody Chercheur chercheur,@PathVariable("lcThe") String lcThe,
+            @RequestBody Chercheur chercheur,@PathVariable("lcThe") List<String> lcThe,
             @PathVariable("lcFct") String lcFct,@PathVariable("lcGra") String lcGra,
             @PathVariable("lcSta") String lcSta,@PathVariable("lcStruct") String lcStruct,
             @PathVariable("lcUnit") String lcUnit){
-        return serviceChercheur.saveCherheur(chercheur,lcThe,lcFct,lcGra,lcSta,lcStruct,lcUnit);
+        return serviceChercheur.saveCherheur(chercheur,lcThe,lcGra,lcSta,lcStruct,lcUnit);
+    }
+    @PutMapping(value = "/chercheurs/{lcThe}/{lcFct}/{lcGra}/{lcSta}/{lcStruct}/{lcUnit}")
+    Chercheur updateChercheur(
+            @RequestBody Chercheur chercheur,@PathVariable("lcThe") List<String> lcThe,
+            @PathVariable("lcFct") String lcFct,@PathVariable("lcGra") String lcGra,
+            @PathVariable("lcSta") String lcSta,@PathVariable("lcStruct") String lcStruct,
+            @PathVariable("lcUnit") String lcUnit){
+        return serviceChercheur.updateCherheur(chercheur,lcThe,lcGra,lcSta,lcStruct,lcUnit);
     }
 
     @GetMapping(value = "/findAllThematiques")
@@ -132,6 +141,11 @@ public class ChercheurController {
     @GetMapping(value = "/findThematiqueByLc/{lc}")
     public Thematique findThematiqueByLc(@PathVariable("lc") String lc) {
         return thematiqueRepository.findThematiqueByLibeleCourt(lc);
+    }
+    @GetMapping(value = "/findThematiqueByLcX/{lc}")
+    public ResponseEntity<Thematique> findThematiqueByLcX(@PathVariable("lc") String lc) {
+        Thematique thematique = thematiqueRepository.findThematiqueByLibeleCourt(lc);
+        return ResponseEntity.ok(thematique);
     }
     @GetMapping(value = "/findFonctionByLc/{lc}")
     public Fonction findFonctionByLc(@PathVariable("lc") String lc) {
